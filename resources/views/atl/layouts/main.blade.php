@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="{{ asset('assets/vendor/animate-css/vivify.min.css') }}">
 
 <!-- MAIN CSS -->
-<link rel="stylesheet" href="assets/css/site.min.css">
+<link rel="stylesheet" href="{ asset('assets/css/site.min.css') }}">
 
 </head>
 <body class="theme-cyan font-montserrat">
