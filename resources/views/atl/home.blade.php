@@ -1,2 +1,2 @@
-@extends('atl.layots.main')
+@extends('atl.layouts.main')
 
