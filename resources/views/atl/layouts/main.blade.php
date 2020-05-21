@@ -133,7 +133,7 @@
 
             <div class="navbar-left">
                 <div class="navbar-btn">
-                    <a href="index.html"><img src="../assets/images/icon.svg" alt="Oculux Logo" class="img-fluid logo"></a>
+                    <a href="index.html"><img src="{{ asset('assets/images/icon.svg') }}" alt="Oculux Logo" class="img-fluid logo"></a>
                     <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
                 </div>
                 <ul class="nav navbar-nav">
@@ -240,12 +240,12 @@
                             <i class="fa fa-language"></i>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="../assets/images/flag/us.svg " class="w20 mr-2 rounded-circle"> US English</a>
-                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="../assets/images/flag/gb.svg " class="w20 mr-2 rounded-circle"> UK English</a>
+                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="{{ asset('assets/images/flag/us.svg ') }}" class="w20 mr-2 rounded-circle"> US English</a>
+                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="{{ asset('assets/images/flag/gb.svg ') }}" class="w20 mr-2 rounded-circle"> UK English</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="../assets/images/flag/russia.svg " class="w20 mr-2 rounded-circle"> Russian</a>
-                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="../assets/images/flag/arabia.svg " class="w20 mr-2 rounded-circle"> Arabic</a>
-                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="../assets/images/flag/france.svg " class="w20 mr-2 rounded-circle"> French</a>
+                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="{{ asset('assets/images/flag/russia.svg ') }}" class="w20 mr-2 rounded-circle"> Russian</a>
+                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="{{ asset('assets/images/flag/arabia.svg ') }}" class="w20 mr-2 rounded-circle"> Arabic</a>
+                            <a class="dropdown-item pt-2 pb-2" href="#"><img src="{{ asset('assets/images/flag/france.svg ') }}" class="w20 mr-2 rounded-circle"> French</a>
                         </div>
                     </li>
                     <li><a href="javascript:void(0);" class="megamenu_toggle icon-menu" title="Mega Menu">Mega</a></li>
@@ -306,7 +306,7 @@
                         </td>
                         <td>
                             <div class="d-flex align-items-center">
-                                <img src="../assets/images/xs/avatar2.jpg" data-toggle="tooltip" data-placement="top" title="" alt="Avatar" class="w35 h35 rounded" data-original-title="Avatar Name">
+                                <img src="{{ asset('assets/images/xs/avatar2.jpg') }}" data-toggle="tooltip" data-placement="top" title="" alt="Avatar" class="w35 h35 rounded" data-original-title="Avatar Name">
                                 <div class="ml-3">
                                     <a href="javascript:void(0);" title="">Zoe Baker</a>
                                     <p class="mb-0">zoe.baker@example.com</p>
@@ -348,7 +348,7 @@
                         </td>
                         <td>
                             <div class="d-flex align-items-center">
-                                <img src="../assets/images/xs/avatar5.jpg" data-toggle="tooltip" data-placement="top" title="" alt="Avatar" class="w35 h35 rounded" data-original-title="Avatar Name">
+                                <img src="{{ asset('assets/images/xs/avatar5.jpg') }}" data-toggle="tooltip" data-placement="top" title="" alt="Avatar" class="w35 h35 rounded" data-original-title="Avatar Name">
                                 <div class="ml-3">
                                     <a href="javascript:void(0);" title="">Brandon Smith</a>
                                     <p class="mb-0">Maria.gill@example.com</p>
@@ -362,7 +362,7 @@
                         </td>
                         <td>
                             <div class="d-flex align-items-center">
-                                <img src="../assets/images/xs/avatar6.jpg" data-toggle="tooltip" data-placement="top" title="" alt="Avatar" class="w35 h35 rounded" data-original-title="Avatar Name">
+                                <img src="{{ asset('assets/images/xs/avatar6.jpg') }}" data-toggle="tooltip" data-placement="top" title="" alt="Avatar" class="w35 h35 rounded" data-original-title="Avatar Name">
                                 <div class="ml-3">
                                     <a href="javascript:void(0);" title="">Kevin Baker</a>
                                     <p class="mb-0">kevin.baker@example.com</p>
@@ -376,7 +376,7 @@
                         </td>
                         <td>
                             <div class="d-flex align-items-center">
-                                <img src="../assets/images/xs/avatar2.jpg" data-toggle="tooltip" data-placement="top" title="" alt="Avatar" class="w35 h35 rounded" data-original-title="Avatar Name">
+                                <img src="{{ asset('assets/images/xs/avatar2.jpg') }}" data-toggle="tooltip" data-placement="top" title="" alt="Avatar" class="w35 h35 rounded" data-original-title="Avatar Name">
                                 <div class="ml-3">
                                     <a href="javascript:void(0);" title="">Zoe Baker</a>
                                     <p class="mb-0">zoe.baker@example.com</p>
