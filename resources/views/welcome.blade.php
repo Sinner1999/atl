@@ -85,9 +85,9 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Lexus</a>
-                    <a href="https://laracasts.com">Toyota</a>
-                    <a href="https://laravel-news.com">Atlant-M</a>
+                    <a href="https://lexus-minsk.by">Lexus</a>
+                    <a href="https://toyota-minsk.by">Toyota</a>
+                    <a href="https://atlantm.com">Atlant-M</a>
                 </div>
             </div>
         </div>
