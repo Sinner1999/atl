@@ -314,7 +314,6 @@
                                 <a href="{{ route('logout') }}" class="icon-menu" 
                                     onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}>
                                     <i class="icon-power"></i>
                                 </a>
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
