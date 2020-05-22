@@ -154,7 +154,7 @@
 
                 <div class="navbar-left">
                     <div class="navbar-btn">
-                        <a href="index.html"><img src="{{ asset('assets/images/icon.svg') }}"
+                        <a href="index.html"><img src="{{ asset('/assets/images/icon.svg') }}"
                                 alt="Oculux Logo" class="img-fluid logo"></a>
                         <button type="button" class="btn-toggle-offcanvas"><i
                                 class="lnr lnr-menu fa fa-bars"></i></button>
