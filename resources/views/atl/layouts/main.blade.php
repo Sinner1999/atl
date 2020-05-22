@@ -310,7 +310,7 @@
                             <li><a href="javascript:void(0);" class="right_toggle icon-menu" title="Right Menu"><i
                                         class="icon-bubbles"></i><span class="notification-dot bg-pink">2</span></a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="{{ route('logout') }}" class="icon-menu" 
                                     onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
@@ -319,7 +319,7 @@
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                 </form>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -905,7 +905,7 @@
         <div id="left-sidebar" class="sidebar">
             <div class="navbar-brand">
                 <a href="index.html"><img src="{{ asset('assets/images/icon.svg') }}"
-                        alt="Oculux Logo" class="img-fluid logo"><span>Oculux</span></a>
+                        alt="Oculux Logo" class="img-fluid logo"><span>Атлант-М Альянс</span></a>
                 <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i
                         class="lnr lnr-menu icon-close"></i></button>
             </div>
@@ -924,7 +924,17 @@
                             <li><a href="app-inbox.html"><i class="icon-envelope-open"></i>Messages</a></li>
                             <li><a href="javascript:void(0);"><i class="icon-settings"></i>Settings</a></li>
                             <li class="divider"></li>
-                            <li><a href="page-login.html"><i class="icon-power"></i>Logout</a></li>
+                            <li>
+                                <a href="{{ route('logout') }}"
+                                    onclick="event.preventDefault();
+                                        document.getElementById('logout-form').submit();">
+                                    <i class="icon-power"></i>         /////////////////////////////
+                                    Logout
+                                </a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                </form>
+                            </li>
                         </ul>
                     </div>
                 </div>
