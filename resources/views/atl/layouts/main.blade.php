@@ -1100,6 +1100,9 @@
                                 </ol>
                             </nav> -->
                         </div>
+                        <div>
+                            Nhfnfnf
+                        </div>
                         <!-- <div class="col-md-6 col-sm-12 text-right hidden-xs">
                             <a href="javascript:void(0);" class="btn btn-sm btn-primary btn-round" title="">Add New</a>
                         </div> -->
