@@ -1123,7 +1123,7 @@
                                     <table class="table table-hover js-basic-example dataTable table-custom">
                                         <thead>
                                             <tr>
-                                                <th>Фамилия Имя</th>
+                                                <th><strong>Фамилия Имя</strong></th>
                                                 <th>Должность</th>
                                                 <th>Отдел</th>
                                                 <th>Вн Тел</th>
