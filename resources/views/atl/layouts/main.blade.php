@@ -1176,8 +1176,8 @@
                                                                 <li><i class="icon-call-end"></i>26100</li>
                                                                 <li><i class="icon-call-end"></i>+375-29-837-12-97</li>
                                                                 <li><i class="icon-call-end"></i>+375-29-620-75-37</li>
-                                                                <li><i class="icon-envelope"></i>sergey_krek@atlantm.com</li>
                                                                 <li class="divider"></li>
+                                                                <li><i class="icon-envelope"></i>sergey_krek@atlantm.com</li>
                                                             </ul>
                                                         </div>
                                                     </div>
