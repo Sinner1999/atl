@@ -1166,7 +1166,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div class="user_account">
+                                                    <div class="sidebar-scroll">
                                                         <div class="dropdown">
                                 
                                                             <a href="javascript:void(0);" class="dropdown-toggle user-name"
