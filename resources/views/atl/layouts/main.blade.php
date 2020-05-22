@@ -1118,9 +1118,9 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="body bg-green">
+                            <div class="body">
                                 <div class="table-responsive">
-                                    <table class="table table-hover js-basic-example dataTable table-custom">
+                                    <table class="table table-hover js-basic-example dataTable table-custom bg-green">
                                         <thead>
                                             <tr>
                                                 <th><strong>Фамилия Имя</strong></th>
