@@ -51,7 +51,7 @@
             <div class="card">
                 <div class="body">
                     <p class="lead">Login to your account</p>
-                    <form class="form-auth-small m-t-20" action="{{ route('login') }}">
+                    <form method="POST" class="form-auth-small m-t-20" action="{{ route('login') }}">
                         @csrf
                         <div class="form-group">
                             <label for="name" class="control-label sr-only">Login</label>
