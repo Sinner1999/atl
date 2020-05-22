@@ -1123,17 +1123,10 @@
                                     <table class="table table-hover js-basic-example dataTable table-custom spacing5">
                                         <thead>
                                             <tr>
-                                                <th colspan="3">Телефоны</th>
-                                                <th>Фамилия</th>
-                                                <th></th>
-                                            </tr>
-                                            <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>Фамилия Имя</th>
+                                                <th>Должность</th>
+                                                <th>Отдел</th>
+                                                <th>Вн Тел</th>
                                             </tr>
                                         </thead>
                                         <!-- <tfoot>
@@ -1148,12 +1141,40 @@
                                         </tfoot> -->
                                         <tbody>
                                             <tr>
-                                                <td>Tiger Nixon</td>
-                                                <td>System Architect</td>
-                                                <td>Edinburgh</td>
-                                                <td>61</td>
-                                                <td>2011/04/25</td>
-                                                <td>$320,800</td>
+                                                <td>Гаврилко Сергей</td>
+                                                <td>Директор</td>
+                                                <td>Администрация</td>
+                                                <td>25150</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Крепская Александра</td>
+                                                <td>Финансовый менеджер</td>
+                                                <td>Финансовый отдел</td>
+                                                <td>25157</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Засеко Елена</td>
+                                                <td>Главный бухгалтер</td>
+                                                <td>Бухгалтерия</td>
+                                                <td>25156</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Минец Юлия</td>
+                                                <td>Руководитель отдела маркетинга</td>
+                                                <td>Отдел маркеринга</td>
+                                                <td>25153</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Крек Сергей</td>
+                                                <td>Руководитель отдела продаж автомобилей</td>
+                                                <td>Отдел продаж автомобилейя</td>
+                                                <td>25100</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Таубалдина Жанна</td>
+                                                <td>Руководитель отдела по работе с клиентами</td>
+                                                <td>Отдел по работе с клиентами</td>
+                                                <td>25140</td>
                                             </tr>
                                             
                                         </tbody>
