@@ -51,16 +51,30 @@
             <div class="card">
                 <div class="body">
                     <p class="lead">Login to your account</p>
-                    <form class="form-auth-small m-t-20" action="index.html">
+                    <form class="form-auth-small m-t-20" action="{{ route('login') }}">
+                        @csrf
                         <div class="form-group">
-                            <label for="signin-email" class="control-label sr-only">Email</label>
-                            <input type="email" class="form-control round" id="signin-email" value="user@domain.com"
-                                placeholder="Email">
+                            <label for="name" class="control-label sr-only">Login</label>
+                            <input type="text" class="form-control round @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus" id="name" value="username" 
+                                placeholder="Name">
+
+                            @error('name')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         </div>
+
                         <div class="form-group">
-                            <label for="signin-password" class="control-label sr-only">Password</label>
-                            <input type="password" class="form-control round" id="signin-password"
+                            <label for="password" class="control-label sr-only">Password</label>
+                            <input type="password" class="form-control round @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" id="password"
                                 value="thisisthepassword" placeholder="Password">
+
+                            @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
                         </div>
                         <div class="form-group clearfix">
                             <label class="fancy-checkbox element-left">
