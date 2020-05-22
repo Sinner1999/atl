@@ -26,7 +26,7 @@
 <body class="theme-cyan font-montserrat">
 
     <!-- Page Loader -->
-    <!-- <div class="page-loader-wrapper">
+    <div class="page-loader-wrapper">
         <div class="loader">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -34,10 +34,10 @@
             <div class="bar4"></div>
             <div class="bar5"></div>
         </div>
-    </div> -->
+    </div>
 
     <!-- Theme Setting -->
-    <!-- <div class="themesetting">
+    <div class="themesetting">
         <a href="javascript:void(0);" class="theme_btn"><i class="icon-magic-wand"></i></a>
         <div class="card theme_color">
             <div class="header">
@@ -142,7 +142,7 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- Overlay For Sidebars -->
     <div class="overlay"></div>
