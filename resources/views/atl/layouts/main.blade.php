@@ -1166,17 +1166,19 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <div class="dropdown">
-                            
-                                                        <a href="javascript:void(0);" class="dropdown-toggle user-name"
-                                                            data-toggle="dropdown"><strong>Крек Сергей</strong></a>
-                                                        <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                                                            <li><i class="icon-user"></i>25100</li>
-                                                            <li><i class="icon-envelope-open"></i>26100</li>
-                                                            <li><i class="icon-settings"></i>+375-29-837-12-97</li>
-                                                            <li><i class="icon-settings"></i>+375-29-620-75-37</li>
-                                                            <li class="divider"></li>
-                                                        </ul>
+                                                    <div class="user_div">
+                                                        <div class="dropdown">
+                                
+                                                            <a href="javascript:void(0);" class="dropdown-toggle user-name"
+                                                                data-toggle="dropdown"><strong>Крек Сергей</strong></a>
+                                                            <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
+                                                                <li><i class="icon-user"></i>25100</li>
+                                                                <li><i class="icon-envelope-open"></i>26100</li>
+                                                                <li><i class="icon-settings"></i>+375-29-837-12-97</li>
+                                                                <li><i class="icon-settings"></i>+375-29-620-75-37</li>
+                                                                <li class="divider"></li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </td>
                                                 <td>Руководитель отдела продаж автомобилей</td>
