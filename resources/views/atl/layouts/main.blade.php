@@ -1119,8 +1119,8 @@
                                 </ul>
                             </div>
                             <div class="body">
-                                <div class="table-responsive">
-                                    <table class="table table-hover js-basic-example dataTable table-info">
+                                <div class="table-responsive bg-green">
+                                    <table class="table table-hover js-basic-example dataTable table-custom">
                                         <thead>
                                             <tr>
                                                 <th><strong>Фамилия Имя</strong></th>
