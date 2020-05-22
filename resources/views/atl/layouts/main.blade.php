@@ -1120,7 +1120,7 @@
                             </div>
                             <div class="body">
                                 <div class="table-responsive">
-                                    <table class="table table-hover js-basic-example dataTable table-custom spacing5">
+                                    <table class="table table-hover js-basic-example dataTable table-custom">
                                         <thead>
                                             <tr>
                                                 <th>Фамилия Имя</th>
