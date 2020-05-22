@@ -1172,7 +1172,7 @@
                                                             <a href="javascript:void(0);" class="dropdown-toggle user-name"
                                                                 data-toggle="dropdown"><strong>Крек Сергей</strong></a>
                                                             <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                                                                <li style="padding-top: 5px; padding-bottom: 5px"><a><i class="icon-call-end"></i>25100</a></li>
+                                                                <li style="padding: 5px;"><a><i class="icon-call-end"></i>25100</a></li>
                                                                 <li><i class="icon-call-end"></i>26100</li>
                                                                 <li><i class="icon-call-end"></i>+375-29-837-12-97</li>
                                                                 <li><i class="icon-call-end"></i>+375-29-620-75-37</li>
