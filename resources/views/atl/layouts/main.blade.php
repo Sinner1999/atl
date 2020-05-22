@@ -308,21 +308,11 @@
                 <div class="navbar-right">
                     <div id="navbar-menu">
                         <ul class="nav navbar-nav">
-                            <li><a href="javascript:void(0);" class="search_toggle icon-menu" title="Search Result"><i
-                                        class="icon-magnifier"></i></a></li>
-                            <!-- <li><a href="javascript:void(0);" class="right_toggle icon-menu" title="Right Menu"><i
-                                        class="icon-bubbles"></i><span class="notification-dot bg-pink">2</span></a>
-                            </li> -->
-                            <!-- <li>
-                                <a href="{{ route('logout') }}" class="icon-menu" 
-                                    onclick="event.preventDefault();
-                                        document.getElementById('logout-form').submit();">
-                                    <i class="icon-power"></i>
+                            <li>
+                                <a href="javascript:void(0);" class="search_toggle icon-menu" title="Search Result">
+                                    <i class="icon-magnifier"></i>
                                 </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                </form>
-                            </li> -->
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -1133,15 +1123,10 @@
                                     <table class="table table-hover js-basic-example dataTable table-custom spacing5">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th cols="3">Телефоны</th>
+                                                <th>Фамилия</th>
+                                                <th></th>
                                             </tr>
-                                        </thead>
-                                        <tfoot>
                                             <tr>
                                                 <th>Name</th>
                                                 <th>Position</th>
@@ -1150,7 +1135,17 @@
                                                 <th>Start date</th>
                                                 <th>Salary</th>
                                             </tr>
-                                        </tfoot>
+                                        </thead>
+                                        <!-- <tfoot>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Position</th>
+                                                <th>Office</th>
+                                                <th>Age</th>
+                                                <th>Start date</th>
+                                                <th>Salary</th>
+                                            </tr>
+                                        </tfoot> -->
                                         <tbody>
                                             <tr>
                                                 <td>Tiger Nixon</td>
