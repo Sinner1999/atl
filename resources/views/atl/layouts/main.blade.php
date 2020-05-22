@@ -670,7 +670,7 @@
             <div id="particles-js"></div>
         </div> -->
 
-        <div id="rightbar" class="rightbar">
+        <!-- <div id="rightbar" class="rightbar">
             <div class="body">
                 <ul class="nav nav-tabs2">
                     <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Chat-one">Chat</a></li>
@@ -900,7 +900,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div id="left-sidebar" class="sidebar">
             <div class="navbar-brand">
