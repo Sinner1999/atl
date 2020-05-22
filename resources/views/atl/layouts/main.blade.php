@@ -1096,7 +1096,7 @@
                     </div>
                 </div>
 
-                <div class="row clearfix">
+                <!-- <div class="row clearfix">
                     <div class="col-lg-12 col-md-12">
                         <div class="card planned_task">
                             <div class="header">
@@ -1121,7 +1121,7 @@
                         </div>
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
 
