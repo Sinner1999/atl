@@ -37,7 +37,7 @@
     </div>
 
     <!-- Theme Setting -->
-    <div class="themesetting">
+    <!-- <div class="themesetting">
         <a href="javascript:void(0);" class="theme_btn"><i class="icon-magic-wand"></i></a>
         <div class="card theme_color">
             <div class="header">
@@ -142,7 +142,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Overlay For Sidebars -->
     <div class="overlay"></div>
