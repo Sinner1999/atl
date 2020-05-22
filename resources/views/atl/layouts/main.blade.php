@@ -1171,9 +1171,9 @@
                                                         <a href="javascript:void(0);" class="dropdown-toggle user-name"
                                                             data-toggle="dropdown"><strong>Крек Сергей</strong></a>
                                                         <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                                                            <li><i class="icon-user"></i>My Profile</li>
-                                                            <li><i class="icon-envelope-open"></i>Messages</li>
-                                                            <li><i class="icon-settings"></i>Settings</li>
+                                                            <li><a href="#"><i class="icon-user"></i>My Profile</a></li>
+                                                            <li><a href="#"><i class="icon-envelope-open"></i>Messages</a></li>
+                                                            <li><a href="#"><i class="icon-settings"></i>Settings</a></li>
                                                             <li class="divider"></li>
                                                         </ul>
                                                     </div>
