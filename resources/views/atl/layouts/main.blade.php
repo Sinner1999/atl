@@ -1123,7 +1123,7 @@
                                     <table class="table table-hover js-basic-example dataTable table-custom spacing5">
                                         <thead>
                                             <tr>
-                                                <th cols="3">Телефоны</th>
+                                                <th colspan="3">Телефоны</th>
                                                 <th>Фамилия</th>
                                                 <th></th>
                                             </tr>
