@@ -1105,11 +1105,11 @@
                             <a href="javascript:void(0);" class="btn btn-sm btn-primary btn-round" title="">Add New</a>
                         </div> -->
                     </div>
-                    <div class="row clearfix">
-                        Nhfnfnf
-                    </div>
+                    
                 </div>
-
+                <div class="row clearfix">
+                    Nhfnfnf
+                </div>
                 <!-- <div class="row clearfix">
                     <div class="col-lg-12 col-md-12">
                         <div class="card planned_task">
