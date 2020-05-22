@@ -310,7 +310,17 @@
                             <li><a href="javascript:void(0);" class="right_toggle icon-menu" title="Right Menu"><i
                                         class="icon-bubbles"></i><span class="notification-dot bg-pink">2</span></a>
                             </li>
-                            <li><a href="{{ route('logout') }}" class="icon-menu"><i class="icon-power"></i></a></li>
+                            <li>
+                                <a href="{{ route('logout') }}" class="icon-menu" 
+                                    onclick="event.preventDefault();
+                                        document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}>
+                                    <i class="icon-power"></i>
+                                </a>
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                </form>
+                            </li>
                         </ul>
                     </div>
                 </div>
