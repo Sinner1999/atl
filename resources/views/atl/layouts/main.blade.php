@@ -169,7 +169,7 @@
                             <li>
                                 <a href="javascript:void(0);">
                                     <div class="media">
-                                        <img class="media-object " src="../assets/images/xs/avatar5.jpg" alt="">
+                                        <img class="media-object " src="{{ asset('assets/images/xs/avatar5.jpg') }}" alt="">
                                         <div class="media-body">
                                             <span class="name">Louis Henry <small class="float-right text-muted">38min ago</small></span>
                                             <span class="message">Design bug fix</span>
@@ -180,7 +180,7 @@
                             <li>
                                 <a href="javascript:void(0);">
                                     <div class="media mb-0">
-                                        <img class="media-object " src="../assets/images/xs/avatar2.jpg" alt="">
+                                        <img class="media-object " src="{{ asset('assets/images/xs/avatar2.jpg') }}" alt="">
                                         <div class="media-body">
                                             <span class="name">Debra Stewart <small class="float-right text-muted">2hr ago</small></span>
                                             <span class="message">Fix Bug</span>
@@ -471,13 +471,13 @@
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="../assets/images/image-gallery/7.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="{{ asset('assets/images/image-gallery/7.jpg') }}" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/images/image-gallery/8.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="{{ asset('assets/images/image-gallery/8.jpg') }}" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/images/image-gallery/9.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="{{ asset('assets/images/image-gallery/9.jpg') }}" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -580,7 +580,7 @@
                                     </div>
                                 </li>
                                 <li class="right">
-                                    <img src="../assets/images/xs/avatar1.jpg" class="rounded" alt="">
+                                    <img src="{{ asset('assets/images/xs/avatar1.jpg') }}" class="rounded" alt="">
                                     <div class="chat-info">
                                         <span class="message">Hi, Alizee<br> It is almost completed. I will send you an email later today.</span>
                                     </div>
@@ -592,7 +592,7 @@
                                     </div>
                                 </li>
                                 <li class="right">
-                                    <img src="../assets/images/xs/avatar1.jpg" class="rounded" alt="">
+                                    <img src="{{ asset('assets/images/xs/avatar1.jpg') }}" class="rounded" alt="">
                                     <div class="chat-info">
                                         <span class="message">Sure we'will have a blast today.</span>
                                     </div>
@@ -621,7 +621,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="../assets/images/xs/avatar3.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar3.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="name">Marshall Nichols</span>
                                         <span class="message">online</span>
@@ -669,7 +669,7 @@
                         <li class="online">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="../assets/images/xs/avatar5.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar5.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="name">Debra Stewart</span>
                                         <span class="message">online</span>
@@ -681,7 +681,7 @@
                         <li class="offline">
                             <a href="javascript:void(0);">
                                 <div class="media">
-                                    <img class="media-object " src="../assets/images/xs/avatar2.jpg" alt="">
+                                    <img class="media-object " src="{{ asset('assets/images/xs/avatar2.jpg') }}" alt="">
                                     <div class="media-body">
                                         <span class="name">Lisa Garett</span>
                                         <span class="message">offline since Jan 18</span>
@@ -791,7 +791,7 @@
         <div class="sidebar-scroll">
             <div class="user-account">
                 <div class="user_div">
-                    <img src="../assets/images/user.png" class="user-photo" alt="User Profile Picture">
+                    <img src="{{ asset('assets/images/user.png') }}" class="user-photo" alt="User Profile Picture">
                 </div>
                 <div class="dropdown">
                     <span>Welcome,</span>
