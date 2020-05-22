@@ -1173,11 +1173,11 @@
                                                                 data-toggle="dropdown"><strong>Крек Сергей</strong></a>
                                                             <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
                                                                 <li><a><i class="icon-call-end" style="margin: 10px;"></i>25100</a></li>
-                                                                <li><i class="icon-call-end"></i>26100</li>
-                                                                <li><i class="icon-call-end"></i>+375-29-837-12-97</li>
-                                                                <li><i class="icon-call-end"></i>+375-29-620-75-37</li>
+                                                                <li><i class="icon-call-end" style="margin: 10px;"></i>26100</li>
+                                                                <li><i class="icon-call-end" style="margin: 10px;"></i>+375-29-837-12-97</li>
+                                                                <li><i class="icon-call-end" style="margin: 10px;"></i>+375-29-620-75-37</li>
                                                                 <li class="divider"></li>
-                                                                <li><i class="icon-envelope"></i>sergey_krek@atlantm.com</li>
+                                                                <li><i class="icon-envelope" style="margin: 10px;"></i>sergey_krek@atlantm.com</li>
                                                             </ul>
                                                         </div>
                                                     </div>
