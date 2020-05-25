@@ -200,6 +200,8 @@
             </div>
         </div>
 
+        @yield('menu')
+
         <div id="left-sidebar" class="sidebar">
             <div class="navbar-brand">
                 <a href="index.html"><img src="{{ asset('assets/images/icon.svg') }}"
