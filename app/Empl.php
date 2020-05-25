@@ -19,11 +19,11 @@ class Empl extends Model
 
     public function posit(){
         
-        return $this->belongsTo('App\Posit', 'id', 'posit_id');
+        return $this->belongsTo('App\Posit');
     }
     
     public function phone(){
         
-        return $this->hasMany('App\Phone', 'phone_id', 'id');
+        return $this->hasMany('App\Phone');
     }
 }

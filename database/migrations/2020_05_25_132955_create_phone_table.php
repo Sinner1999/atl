@@ -13,8 +13,12 @@ class CreatePhoneTable extends Migration
      */
     public function up()
     {
-        Schema::table('phone', function (Blueprint $table) {
-            //
+        Schema::create('phone', function (Blueprint $table) {
+            $table->id();
+            $table->string('phone');
+            $table->integer('empl_id');
+            $table->softDeletes();
+            $table->timestamps();
         });
     }
 
