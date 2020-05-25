@@ -239,23 +239,9 @@
                 <nav id="left-sidebar-nav" class="sidebar-nav">
                     <ul id="main-menu" class="metismenu">
                         <li class="header">Меню</li>
-                        <li>
-                            <a href="#myPage" class="has-arrow"><i class="icon-home"></i><span>My Page</span></a>
-                            <ul>
-                                <li><a href="index.html">Справочник</a></li>
-                                <li><a href="index4.html">Документы</a></li>
-                                <li><a href="index5.html">Пункт</a></li>
-                                <li><a href="index6.html">Пункт</a></li>
-                                <li><a href="index7.html">Пункт</a></li>
-                                <li><a href="../hospital/index.html">Пункт</a></li>
-                                <li><a href="index9.html">Пункт</a></li>
-                                <li><a href="index10.html">Пункт</a></li>
-                                <li><a href="index11.html">Пункт</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="index2.html"><i class="icon-speedometer"></i><span>Трям</span></a></li>
-                        <li><a href="index3.html"><i class="icon-diamond"></i><span>Трям</span></a></li>
-                        <li><a href="../hrms/index.html"><i class="icon-rocket"></i><span>Трям</span></a></li>
+                        <li><a href="/"><i class="icon-speedometer"></i><span>Справочник</span></a></li>
+                        <li><a href="/doc"><i class="icon-diamond"></i><span>Документы</span></a></li>
+                        <li><a href="../admin"><i class="icon-rocket"></i><span>Администрирование</span></a></li>
                         <li><a href="../jobportal/index.html"><i class="icon-badge"></i><span>Трям</span></a></li>
                         <li><a href="../landing/index.html"><i class="icon-cursor"></i><span>Трям</span></a>
                         </li>
