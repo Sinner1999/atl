@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('atl.home');
     }
+
+    public function admin()
+    {
+        return view('atl.home');
+    }
 }
