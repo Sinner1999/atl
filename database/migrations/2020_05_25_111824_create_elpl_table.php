@@ -13,7 +13,7 @@ class CreateElplTable extends Migration
      */
     public function up()
     {
-        Schema::table('empl', function (Blueprint $table) {
+        Schema::create('empl', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('email')->unique();

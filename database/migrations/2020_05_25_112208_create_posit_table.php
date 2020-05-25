@@ -13,7 +13,7 @@ class CreatePositTable extends Migration
      */
     public function up()
     {
-        Schema::table('posit', function (Blueprint $table) {
+        Schema::create('posit', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->integer('dept_id');
