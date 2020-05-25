@@ -1,12 +1,13 @@
 @extends('atl.layouts.main')
 
+
 @section('content')
 <div id="main-content">
     <div class="container-fluid">
         <div class="block-header">
             <div class="row clearfix">
                 <div class="col-md-6 col-sm-12">
-                    <h2>Телефонный справочник</h2>
+                    <h2>Панель администратора</h2>
                 </div>
             </div>
             
@@ -29,7 +30,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="body">
+                    <!-- <div class="body">
                         <div class="table-responsive">
                             <table class="table table-hover js-basic-example dataTable table-custom bg-green">
                                 <thead>
@@ -97,12 +98,10 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 @endsection
-
