@@ -14,7 +14,11 @@ class CreateElplTable extends Migration
     public function up()
     {
         Schema::table('empl', function (Blueprint $table) {
-            //
+            $table->id();
+            $table->string('name');
+            $table->integer('posit_id');
+            $table->softDeletes();
+            $table->timestamps()
         });
     }
 

@@ -14,7 +14,10 @@ class CreateDeptTable extends Migration
     public function up()
     {
         Schema::table('dept', function (Blueprint $table) {
-            //
+            $table->id();
+            $table->string('name');
+            $table->softDeletes();
+            $table->timestamps()
         });
     }
 
