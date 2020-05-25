@@ -18,7 +18,7 @@ class CreatePositTable extends Migration
             $table->string('name');
             $table->integer('dept_id');
             $table->softDeletes();
-            $table->timestamps()
+            $table->timestamps();
         });
     }
 

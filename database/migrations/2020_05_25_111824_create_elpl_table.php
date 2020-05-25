@@ -18,7 +18,7 @@ class CreateElplTable extends Migration
             $table->string('name');
             $table->integer('posit_id');
             $table->softDeletes();
-            $table->timestamps()
+            $table->timestamps();
         });
     }
 
