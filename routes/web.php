@@ -22,7 +22,7 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::prefix('admin')->group(['middleware' => 'auth'], function(){
 
-    Route::get('/', ['uses' => 'HomeConrtoller@admin', 'as' => 'adminroot']);
+    Route::get('/', ['uses' => 'HomeController@admin', 'as' => 'adminroot']);
 
     Route::get('/phone', ['uses' => 'HomeConrtoller@adminphone', 'as' => 'adminphone']);
 
