@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include('atl.phone')
+    @include('{{ $cont }}')
 
 @endsection
 
