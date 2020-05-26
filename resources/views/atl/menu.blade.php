@@ -1,6 +1,3 @@
-@extends('atl.layots.main')
-
-@section('menu')
 <div id="left-sidebar" class="sidebar">
     <div class="navbar-brand">
         <a href="index.html"><img src="{{ asset('assets/images/icon.svg') }}"
@@ -51,4 +48,3 @@
         </nav>
     </div>
 </div>
-@endsection
