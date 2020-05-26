@@ -37,4 +37,12 @@ class HomeController extends Controller
         ];
         return view('atl.home', $data);
     }
+
+    public function adminphone()
+    {
+        $data = [
+            'content' => 'atl.admin.phone',
+        ];
+        return view('atl.home', $data);
+    }
 }
