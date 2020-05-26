@@ -33,6 +33,9 @@
                             </form>
                         </li>
                     @endauth
+                    @guest
+                        <li><a href="../admin"><i class="icon-rocket"></i><span>Администрирование</span></a></li>
+                    @endguest
                 </ul>
             </div>
         </div>
@@ -41,9 +44,6 @@
                 <li class="header">Меню</li>
                 <li><a href="/"><i class="icon-speedometer"></i><span>Справочник</span></a></li>
                 <li><a href="/doc"><i class="icon-diamond"></i><span>Документы</span></a></li>
-                @guest
-                    <li><a href="../admin"><i class="icon-rocket"></i><span>Администрирование</span></a></li>
-                @endguest
                 <li><a href="../jobportal/index.html"><i class="icon-badge"></i><span>Трям</span></a></li>
                 <li><a href="../landing/index.html"><i class="icon-cursor"></i><span>Трям</span></a>
                 </li>
