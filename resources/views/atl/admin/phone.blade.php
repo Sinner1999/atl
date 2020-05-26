@@ -43,7 +43,7 @@
                                         <td>Директор</td>
                                         <td>Администрация</td>
                                         <td>
-                                            <a class="btn btn-danger" href="page-profile.html"><i class="icon-user"></i>My Profile</a>
+                                            <a class="btn btn-danger" href="page-profile.html"><i class="icon-edit"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
