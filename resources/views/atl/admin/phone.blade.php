@@ -112,8 +112,9 @@
                             </table>
                         </div>
 
-                        <a class="btn btn-info" href="#">Назад</a>
+
                     </div>
+                    <a class="btn btn-info" href="#">Назад</a>
                 </div>
             </div>
         </div>
