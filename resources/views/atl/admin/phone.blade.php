@@ -12,28 +12,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="header">
-                        {{-- <h2>Basic Table <small>Basic example without any additional modification classes</small></h2> --}}
-                        <ul class="header-dropdown dropdown">
 
-                            {{-- <li><a href="javascript:void(0);" class="full-screen"><i class="icon-frame"></i></a></li> --}}
-                            <li class="dropdown">
-                                <a class="btn btn-primary" href="{{ route('logout') }}"
-                                    onclick="event.preventDefault();
-                                        document.getElementById('logout-form').submit();">
-                                    <i class="icon-power"></i>
-                                    Logout
-                                </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        @csrf
-                                </form>
-                                {{-- <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="javascript:void(0);">Action</a></li>
-                                    <li><a href="javascript:void(0);">Another Action</a></li>
-                                    <li><a href="javascript:void(0);">Something else</a></li>
-                                </ul> --}}
-                            </li>
-                        </ul>
                     </div>
                     <div class="body">
                         <div class="table-responsive">
