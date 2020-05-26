@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include({{ $content }})
+    @include({{ $data->$content }})
 
 @endsection
 
