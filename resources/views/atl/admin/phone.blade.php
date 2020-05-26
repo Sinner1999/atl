@@ -43,7 +43,7 @@
                                         <td>Директор</td>
                                         <td>Администрация</td>
                                         <td>
-                                            <a class="btn btn-danger" href="#">Изменить</a>
+                                            <a class="btn btn-warning" href="#">Изменить</a>
                                             <a class="btn btn-danger" href="#">Удалить</a>
                                         </td>
                                     </tr>
@@ -51,19 +51,28 @@
                                         <td>Крепская Александра</td>
                                         <td>Финансовый менеджер</td>
                                         <td>Финансовый отдел</td>
-                                        <td>25157</td>
+                                        <td>
+                                            <a class="btn btn-warning" href="#">Изменить</a>
+                                            <a class="btn btn-danger" href="#">Удалить</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Засеко Елена</td>
                                         <td>Главный бухгалтер</td>
                                         <td>Бухгалтерия</td>
-                                        <td>25156</td>
+                                        <td>
+                                            <a class="btn btn-warning" href="#">Изменить</a>
+                                            <a class="btn btn-danger" href="#">Удалить</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Минец Юлия</td>
                                         <td>Руководитель отдела маркетинга</td>
                                         <td>Отдел маркеринга</td>
-                                        <td>25153</td>
+                                        <td>
+                                            <a class="btn btn-warning" href="#">Изменить</a>
+                                            <a class="btn btn-danger" href="#">Удалить</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -71,7 +80,7 @@
                                                 <div class="dropdown">
 
                                                     <a href="javascript:void(0);" class="dropdown-toggle user-name"
-                                                        data-toggle="dropdown"><strong>Крек Сергей</strong></a>
+                                                        data-toggle="dropdown">Крек Сергей</a>
                                                     <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
                                                         <li><i class="icon-call-end" style="margin: 10px;"></i>25100</li>
                                                         <li><i class="icon-call-end" style="margin: 10px;"></i>26100</li>
@@ -85,14 +94,19 @@
                                         </td>
                                         <td>Руководитель отдела продаж автомобилей</td>
                                         <td>Отдел продаж автомобилейя</td>
-                                        <td>25100</td>
+                                        <td>
+                                            <a class="btn btn-warning" href="#">Изменить</a>
+                                            <a class="btn btn-danger" href="#">Удалить</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Таубалдина Жанна</td>
                                         <td>Руководитель отдела по работе с клиентами</td>
                                         <td>Отдел по работе с клиентами</td>
-                                        <td>25140</td>
-                                    </tr>
+                                        <td>
+                                            <a class="btn btn-warning" href="#">Изменить</a>
+                                            <a class="btn btn-danger" href="#">Удалить</a>
+                                        </td>
 
                                 </tbody>
                             </table>
