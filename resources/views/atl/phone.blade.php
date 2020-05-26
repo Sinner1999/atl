@@ -6,15 +6,15 @@
                     <h2>Телефонный справочник</h2>
                 </div>
             </div>
-            
+
         </div>
         <div class="row clearfix">
             <div class="col-lg-12">
                 <div class="card">
                     <div class="header">
                         <h2>Basic Table <small>Basic example without any additional modification classes</small></h2>
-                        <ul class="header-dropdown dropdown">
-                            
+                        {{-- <ul class="header-dropdown dropdown">
+
                             <li><a href="javascript:void(0);" class="full-screen"><i class="icon-frame"></i></a></li>
                             <li class="dropdown">
                                 <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
@@ -24,7 +24,7 @@
                                     <li><a href="javascript:void(0);">Something else</a></li>
                                 </ul>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
                     <div class="body">
                         <div class="table-responsive">
@@ -66,7 +66,7 @@
                                         <td>
                                             <div class="sidebar-scroll">
                                                 <div class="dropdown">
-                        
+
                                                     <a href="javascript:void(0);" class="dropdown-toggle user-name"
                                                         data-toggle="dropdown"><strong>Крек Сергей</strong></a>
                                                     <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
@@ -90,7 +90,7 @@
                                         <td>Отдел по работе с клиентами</td>
                                         <td>25140</td>
                                     </tr>
-                                    
+
                                 </tbody>
                             </table>
                         </div>
