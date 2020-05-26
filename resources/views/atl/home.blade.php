@@ -107,6 +107,6 @@
 @endsection
 
 @section('menu')
-    @include('menu')
+    @include('atl.menu')
 @endsection
 
