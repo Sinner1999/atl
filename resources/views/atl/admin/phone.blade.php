@@ -3,7 +3,7 @@
         <div class="block-header">
             <div class="row clearfix">
                 <div class="col-md-6 col-sm-12">
-                    <h2>Телефонный справочник</h2>
+                    <h2>Редактирование справочника</h2>
                 </div>
             </div>
 
@@ -34,7 +34,7 @@
                                         <th><strong>Фамилия Имя</strong></th>
                                         <th>Должность</th>
                                         <th>Отдел</th>
-                                        <th>Вн Тел</th>
+                                        <th>Действия</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -42,7 +42,9 @@
                                         <td>Гаврилко Сергей</td>
                                         <td>Директор</td>
                                         <td>Администрация</td>
-                                        <td>25150</td>
+                                        <td>
+                                            <a class="btn btn-danger" href="page-profile.html"><i class="icon-user"></i>My Profile</a>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Крепская Александра</td>
