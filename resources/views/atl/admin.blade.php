@@ -27,7 +27,7 @@
                         </ul> --}}
 
                     </div>
-                    <a class="btn btn-info" href="#">Изменение телефонного справочника</a>
+                    <a class="btn btn-outline-info" href="#">Изменение телефонного справочника</a>
                 </div>
             </div>
         </div>
