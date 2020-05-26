@@ -16,12 +16,22 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::get('/admin', 'HomeController@admin')->name('admin')->middleware('auth');
+Route::prefix('admin')->group(['middleware' => 'auth'], function(){
 
-Auth::routes();
+    Route::get('/', ['uses' => 'HomeConrtoller@admin', 'as' => 'adminroot']);
+
+    Route::get('/phone', ['uses' => 'HomeConrtoller@adminphone', 'as' => 'adminphone']);
+
+
+});
+
+// Route::get('/admin', 'HomeController@admin')->name('admin')->middleware('auth');
+
+
 
 // Route::get('/', 'HomeController@index')->name('home');
 
