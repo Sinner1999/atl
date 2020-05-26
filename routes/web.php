@@ -20,14 +20,14 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::prefix('admin')->group(['middleware' => 'auth'], function(){
+Route::prefix('admin')->group(function(){
 
     Route::get('/', ['uses' => 'HomeController@admin', 'as' => 'adminroot']);
 
     Route::get('/phone', ['uses' => 'HomeController@adminphone', 'as' => 'adminphone']);
 
 
-});
+})->middleware('auth');
 
 // Route::get('/admin', 'HomeController@admin')->name('admin')->middleware('auth');
 
