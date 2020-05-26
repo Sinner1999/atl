@@ -106,3 +106,7 @@
 
 @endsection
 
+@section('menu')
+    @include('menu')
+@endsection
+
