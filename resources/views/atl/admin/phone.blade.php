@@ -15,9 +15,9 @@
                         {{-- <h2>Basic Table <small>Basic example without any additional modification classes</small></h2> --}}
                         <ul class="header-dropdown dropdown">
 
-                            <li><a href="javascript:void(0);" class="full-screen"><i class="icon-frame"></i></a></li>
+                            {{-- <li><a href="javascript:void(0);" class="full-screen"><i class="icon-frame"></i></a></li> --}}
                             <li class="dropdown">
-                                <a href="{{ route('logout') }}"
+                                <a class="btn btn-primary" href="{{ route('logout') }}"
                                     onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
                                     <i class="icon-power"></i>
