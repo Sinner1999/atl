@@ -34,7 +34,6 @@ class HomeController extends Controller
     {
         $data = [
             'content' => 'atl.admin',
-            'menu' => 'atl.layouts.menu',
         ];
         return view('atl.home', $data);
     }
@@ -43,7 +42,6 @@ class HomeController extends Controller
     {
         $data = [
             'content' => 'atl.admin.phone',
-            'menu' => 'atl.admin.menu',
         ];
         return view('atl.home', $data);
     }

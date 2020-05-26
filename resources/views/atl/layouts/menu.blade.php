@@ -20,6 +20,7 @@
                     <li><a href="app-inbox.html"><i class="icon-envelope-open"></i>Messages</a></li>
                     <li><a href="javascript:void(0);"><i class="icon-settings"></i>Settings</a></li>
                     <li class="divider"></li>
+
                     <li>
                         <a href="{{ route('logout') }}"
                             onclick="event.preventDefault();
@@ -39,11 +40,13 @@
                 <li class="header">Меню</li>
                 <li><a href="/"><i class="icon-speedometer"></i><span>Справочник</span></a></li>
                 <li><a href="/doc"><i class="icon-diamond"></i><span>Документы</span></a></li>
-                <li><a href="../admin"><i class="icon-rocket"></i><span>Администрирование</span></a></li>
+                @guest
+                    <li><a href="../admin"><i class="icon-rocket"></i><span>Администрирование</span></a></li>
+                @endguest
                 <li><a href="../jobportal/index.html"><i class="icon-badge"></i><span>Трям</span></a></li>
                 <li><a href="../landing/index.html"><i class="icon-cursor"></i><span>Трям</span></a>
                 </li>
-                
+
             </ul>
         </nav>
     </div>

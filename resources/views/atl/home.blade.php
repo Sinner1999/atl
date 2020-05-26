@@ -8,7 +8,7 @@
 
 @section('menu')
 
-    @include($menu)
+    @include('atl.layouts.header')
 
 @endsection
 
