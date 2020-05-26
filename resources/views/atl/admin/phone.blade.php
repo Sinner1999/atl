@@ -27,11 +27,11 @@
                                         @csrf
                                 </form>
                                 {{-- <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
-                                <ul class="dropdown-menu"> --}}
+                                <ul class="dropdown-menu">
                                     <li><a href="javascript:void(0);">Action</a></li>
                                     <li><a href="javascript:void(0);">Another Action</a></li>
                                     <li><a href="javascript:void(0);">Something else</a></li>
-                                </ul>
+                                </ul> --}}
                             </li>
                         </ul>
                     </div>
