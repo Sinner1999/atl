@@ -23,11 +23,18 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('atl.home', ['content' => 'atl.phone']);
+        $data = [
+            'content' => 'atl.phone',
+        ];
+
+        return view('atl.home', $data);
     }
 
     public function admin()
     {
-        return view('atl.home', ['content' => 'atl.admin']);
+        $data = [
+            'content' => 'atl.admin',
+        ];
+        return view('atl.home', $data);
     }
 }
