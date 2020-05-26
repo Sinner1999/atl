@@ -12,7 +12,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="header">
-                        <h2>Basic Table <small>Basic example without any additional modification classes</small></h2>
+                        {{-- <h2>Basic Table <small>Basic example without any additional modification classes</small></h2>
                         <ul class="header-dropdown dropdown">
 
                             <li><a href="javascript:void(0);" class="full-screen"><i class="icon-frame"></i></a></li>
@@ -24,9 +24,10 @@
                                     <li><a href="javascript:void(0);">Something else</a></li>
                                 </ul>
                             </li>
-                        </ul>
-                    </div>
+                        </ul> --}}
 
+                    </div>
+                    kdjfjdfkjd
                 </div>
             </div>
         </div>
