@@ -27,7 +27,7 @@
                         </ul> --}}
 
                     </div>
-                    kdjfjdfkjd
+                    <a class="btn btn-info" href="#">Изменение телефонного справочника</a>
                 </div>
             </div>
         </div>
