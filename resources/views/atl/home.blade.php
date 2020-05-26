@@ -2,7 +2,7 @@
 
 @section('content')
 
-    @include({{ ($content) ? 1 : 2 }})
+    @include( ''.{{ $content }} )
 
 @endsection
 
