@@ -20,16 +20,16 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::prefix('admin', )->middleware('auth')->group(function(){
+// Route::prefix('admin', )->middleware('auth')->group(function(){
 
-    Route::get('/', ['uses' => 'HomeController@admin', 'as' => 'adminroot']);
+//     Route::get('/', ['uses' => 'HomeController@admin', 'as' => 'adminroot']);
 
-    Route::get('/phone', ['uses' => 'HomeController@adminphone', 'as' => 'adminphone']);
+//     Route::get('/phone', ['uses' => 'HomeController@adminphone', 'as' => 'adminphone']);
 
 
-});
+// });
 
-// Route::get('/admin', 'HomeController@admin')->name('admin')->middleware('auth');
+Route::get('/admin', 'HomeController@admin')->name('admin')->middleware('auth');
 
 
 
