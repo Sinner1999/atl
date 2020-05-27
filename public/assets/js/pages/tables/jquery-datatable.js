@@ -85,35 +85,35 @@ var addRowTable = {
             }],
         }), window.dt = this.datatable, this
     },
-    events: function() {
-        var object = this;
-        return this.$table.on("click", "button.button-save", function(e) {
-            e.preventDefault(), object.rowSave($(this).closest("tr"))
-        }).on("click", "button.button-discard", function(e) {
-            e.preventDefault(), object.rowCancel($(this).closest("tr"))
-        }).on("click", "button.button-edit", function(e) {
-            e.preventDefault(), object.rowEdit($(this).closest("tr"))
-        }).on("click", "button.button-remove", function(e) {
-            e.preventDefault();
-            var $row = $(this).closest("tr");
-            swal({
-                title: "Are you sure?",
-                text: "You will not be able to recover this imaginary file!",
-                type: "warning",
-                showCancelButton: true,
-                confirmButtonColor: "#dc3545",
-                confirmButtonText: "Yes, delete it!",
-                closeOnConfirm: false
-            }, function () {
-                object.rowRemove($row)
-                swal("Deleted!", "Your imaginary file has been deleted.", "success");
-            });
-        }), this.$addButton.on("click", function(e) {
-            e.preventDefault(), object.rowAdd()
-        }), this.dialog.$cancel.on("click", function(e) {
-            e.preventDefault(), $.magnificPopup.close()
-        }), this
-    },
+    // events: function() {
+    //     var object = this;
+    //     return this.$table.on("click", "button.button-save", function(e) {
+    //         e.preventDefault(), object.rowSave($(this).closest("tr"))
+    //     }).on("click", "button.button-discard", function(e) {
+    //         e.preventDefault(), object.rowCancel($(this).closest("tr"))
+    //     }).on("click", "button.button-edit", function(e) {
+    //         e.preventDefault(), object.rowEdit($(this).closest("tr"))
+    //     }).on("click", "button.button-remove", function(e) {
+    //         e.preventDefault();
+    //         var $row = $(this).closest("tr");
+    //         swal({
+    //             title: "Are you sure?",
+    //             text: "You will not be able to recover this imaginary file!",
+    //             type: "warning",
+    //             showCancelButton: true,
+    //             confirmButtonColor: "#dc3545",
+    //             confirmButtonText: "Yes, delete it!",
+    //             closeOnConfirm: false
+    //         }, function () {
+    //             object.rowRemove($row)
+    //             swal("Deleted!", "Your imaginary file has been deleted.", "success");
+    //         });
+    //     }), this.$addButton.on("click", function(e) {
+    //         e.preventDefault(), object.rowAdd()
+    //     }), this.dialog.$cancel.on("click", function(e) {
+    //         e.preventDefault(), $.magnificPopup.close()
+    //     }), this
+    // },
     rowAdd: function() {
         this.$addButton.attr({
             disabled: "disabled"
