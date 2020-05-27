@@ -1,7 +1,7 @@
 $(function () {
     $('.js-basic-example').DataTable();
 
-    Exportable table
+    // Exportable table
     $('.js-exportable').DataTable({
         dom: 'Bfrtip',
         buttons: [
