@@ -75,9 +75,9 @@ var addRowTable = {
     initialize: function() {
         this.setVars().build().events()
     },
-    setVars: function() {
-        return this.$table = $(this.options.table), this.$addButton = $(this.options.addButton), this.dialog = {}, this.dialog.$wrapper = $(this.options.dialog.wrapper), this.dialog.$cancel = $(this.options.dialog.cancelButton), this.dialog.$confirm = $(this.options.dialog.confirmButton), this
-    },
+    // setVars: function() {
+    //     return this.$table = $(this.options.table), this.$addButton = $(this.options.addButton), this.dialog = {}, this.dialog.$wrapper = $(this.options.dialog.wrapper), this.dialog.$cancel = $(this.options.dialog.cancelButton), this.dialog.$confirm = $(this.options.dialog.confirmButton), this
+    // },
     build: function() {
         return this.datatable = this.$table.DataTable({
             aoColumns: [null, null, null, {
