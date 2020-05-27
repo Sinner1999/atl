@@ -6,7 +6,8 @@ $(function () {
         dom: 'Bfrtip',
         buttons: [
 
-        ]
+        ],
+        fixedHeader: 'false'
     });
 });
 
