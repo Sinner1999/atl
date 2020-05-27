@@ -5,9 +5,9 @@ $(function () {
     $('.js-exportable').DataTable({
 
         dom: 'Bfrtip',
-        // buttons: [
+        buttons: [ 'copy'
 
-        // ]
+        ]
     });
 });
 
