@@ -1,13 +1,13 @@
 $(function () {
     $('.js-basic-example').DataTable();
 
-    //Exportable table
-    // $('.js-exportable').DataTable({
-    //     dom: 'Bfrtip',
-    //     buttons: [
-    //         'copy', 'csv', 'excel', 'pdf', 'print'
-    //     ]
-    // });
+    Exportable table
+    $('.js-exportable').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ]
+    });
 });
 
 /* Formatting function for row details - modify as you need */
@@ -85,42 +85,42 @@ var addRowTable = {
             }],
         }), window.dt = this.datatable, this
     },
-    // events: function() {
-    //     var object = this;
-    //     return this.$table.on("click", "button.button-save", function(e) {
-    //         e.preventDefault(), object.rowSave($(this).closest("tr"))
-    //     }).on("click", "button.button-discard", function(e) {
-    //         e.preventDefault(), object.rowCancel($(this).closest("tr"))
-    //     }).on("click", "button.button-edit", function(e) {
-    //         e.preventDefault(), object.rowEdit($(this).closest("tr"))
-    //     }).on("click", "button.button-remove", function(e) {
-    //         e.preventDefault();
-    //         var $row = $(this).closest("tr");
-    //         swal({
-    //             title: "Are you sure?",
-    //             text: "You will not be able to recover this imaginary file!",
-    //             type: "warning",
-    //             showCancelButton: true,
-    //             confirmButtonColor: "#dc3545",
-    //             confirmButtonText: "Yes, delete it!",
-    //             closeOnConfirm: false
-    //         }, function () {
-    //             object.rowRemove($row)
-    //             swal("Deleted!", "Your imaginary file has been deleted.", "success");
-    //         });
-    //     }), this.$addButton.on("click", function(e) {
-    //         e.preventDefault(), object.rowAdd()
-    //     }), this.dialog.$cancel.on("click", function(e) {
-    //         e.preventDefault(), $.magnificPopup.close()
-    //     }), this
-    // },
-    // rowAdd: function() {
-    //     this.$addButton.attr({
-    //         disabled: "disabled"
-    //     });
-    //     var actions, data, $row;
-    //     actions = ['<button class="btn btn-sm btn-icon btn-pure btn-default on-editing button-save" data-toggle="tooltip" data-original-title="Save" hidden><i class="icon-drawer" aria-hidden="true"></i></button>', '<button class="btn btn-sm btn-icon btn-pure btn-default on-editing button-discard" data-toggle="tooltip" data-original-title="Discard" hidden><i class="icon-close" aria-hidden="true"></i></button>', '<button class="btn btn-sm btn-icon btn-pure btn-default on-default button-edit" data-toggle="tooltip" data-original-title="Edit"><i class="icon-pencil" aria-hidden="true"></i></button>', '<button class="btn btn-sm btn-icon btn-pure btn-default on-default button-remove" data-toggle="tooltip" data-original-title="Remove"><i class="icon-trash" aria-hidden="true"></i></button>'].join(" "), data = this.datatable.row.add(["", "", "", actions]), ($row = this.datatable.row(data[0]).nodes().to$()).addClass("adding").find("td:last").addClass("actions"), this.rowEdit($row), this.datatable.order([0, "asc"]).draw()
-    // },
+    events: function() {
+        var object = this;
+        return this.$table.on("click", "button.button-save", function(e) {
+            e.preventDefault(), object.rowSave($(this).closest("tr"))
+        }).on("click", "button.button-discard", function(e) {
+            e.preventDefault(), object.rowCancel($(this).closest("tr"))
+        }).on("click", "button.button-edit", function(e) {
+            e.preventDefault(), object.rowEdit($(this).closest("tr"))
+        }).on("click", "button.button-remove", function(e) {
+            e.preventDefault();
+            var $row = $(this).closest("tr");
+            swal({
+                title: "Are you sure?",
+                text: "You will not be able to recover this imaginary file!",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#dc3545",
+                confirmButtonText: "Yes, delete it!",
+                closeOnConfirm: false
+            }, function () {
+                object.rowRemove($row)
+                swal("Deleted!", "Your imaginary file has been deleted.", "success");
+            });
+        }), this.$addButton.on("click", function(e) {
+            e.preventDefault(), object.rowAdd()
+        }), this.dialog.$cancel.on("click", function(e) {
+            e.preventDefault(), $.magnificPopup.close()
+        }), this
+    },
+    rowAdd: function() {
+        this.$addButton.attr({
+            disabled: "disabled"
+        });
+        var actions, data, $row;
+        actions = ['<button class="btn btn-sm btn-icon btn-pure btn-default on-editing button-save" data-toggle="tooltip" data-original-title="Save" hidden><i class="icon-drawer" aria-hidden="true"></i></button>', '<button class="btn btn-sm btn-icon btn-pure btn-default on-editing button-discard" data-toggle="tooltip" data-original-title="Discard" hidden><i class="icon-close" aria-hidden="true"></i></button>', '<button class="btn btn-sm btn-icon btn-pure btn-default on-default button-edit" data-toggle="tooltip" data-original-title="Edit"><i class="icon-pencil" aria-hidden="true"></i></button>', '<button class="btn btn-sm btn-icon btn-pure btn-default on-default button-remove" data-toggle="tooltip" data-original-title="Remove"><i class="icon-trash" aria-hidden="true"></i></button>'].join(" "), data = this.datatable.row.add(["", "", "", actions]), ($row = this.datatable.row(data[0]).nodes().to$()).addClass("adding").find("td:last").addClass("actions"), this.rowEdit($row), this.datatable.order([0, "asc"]).draw()
+    },
     rowCancel: function($row) {
         var $actions, data;
         $row.hasClass("adding") ? this.rowRemove($row) : (($actions = $row.find("td.actions")).find(".button-discard").tooltip("hide"), $actions.get(0) && this.rowSetActionsDefault($row), data = this.datatable.row($row.get(0)).data(), this.datatable.row($row.get(0)).data(data), this.handleTooltip($row), this.datatable.draw())
