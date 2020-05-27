@@ -2,14 +2,14 @@ $(function () {
     $('.js-basic-example').DataTable();
 
     // Exportable table
-    $('.js-exportable').DataTable({
+    //$('.js-exportable').DataTable({
 
         // dom: 'Bfrtip',
         // buttons: [
 
         // ],
         // fixedHeader: 'false'
-    });
+    //});
 });
 
 /* Formatting function for row details - modify as you need */
