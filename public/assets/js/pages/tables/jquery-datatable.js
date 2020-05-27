@@ -3,11 +3,12 @@ $(function () {
 
     // Exportable table
     $('.js-exportable').DataTable({
-        dom: 'Bfrtip',
-        buttons: [
 
-        ],
-        fixedHeader: 'false'
+        // dom: 'Bfrtip',
+        // buttons: [
+
+        // ],
+        // fixedHeader: 'false'
     });
 });
 
