@@ -9,7 +9,7 @@
 
         </div>
         <div class="row clearfix">
-            <div class="col-lg-12">
+            {{-- <div class="col-lg-12">
                 <div class="card">
                     <div class="header">
                         <h2>Basic Table <small>Basic example without any additional modification classes</small></h2>
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="col-lg-12">
                 <div class="card">
