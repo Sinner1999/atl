@@ -3,7 +3,6 @@ $(function () {
 
     // Exportable table
     $('.js-exportable').DataTable({
-
         dom: 'Bfrtip',
         buttons: []
     });
