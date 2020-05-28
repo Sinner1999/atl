@@ -20,9 +20,9 @@
                                 <thead>
                                     <tr>
                                         <th><strong>Фамилия Имя</strong></th>
-                                        <th>Должность</th>
-                                        <th>Отдел</th>
-                                        <th>Действия</th>
+                                        <th><strong>Должность</strong></th>
+                                        <th><strong>Отдел</strong></th>
+                                        <th><strong>Действия</strong></th>
                                     </tr>
                                 </thead>
                                 <tbody>
