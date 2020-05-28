@@ -54,6 +54,7 @@
                                     </tr>
 
                                     <tr>
+                                        <td></td>
                                         <td>
                                             <div class="sidebar-scroll">
                                                 <div class="dropdown">
@@ -74,6 +75,7 @@
 
                                     </tr>
                                     <tr>
+                                        <td></td>
                                         <td>Засеко Елена</td>
                                         <td>25156</td>
                                         <td>Главный бухгалтер</td>
@@ -81,6 +83,7 @@
 
                                     </tr>
                                     <tr>
+                                        <td></td>
                                         <td>Минец Юлия</td>
                                         <td>25153</td>
                                         <td>Руководитель отдела маркетинга</td>
@@ -88,6 +91,7 @@
 
                                     </tr>
                                     <tr>
+                                        <td></td>
                                         <td>
                                             <div class="sidebar-scroll">
                                                 <div class="dropdown">
@@ -112,6 +116,7 @@
                                     </tr>
 
                                     <tr>
+                                        <td></td>
                                         <td>Таубалдина Жанна</td>
                                         <td>25140</td>
                                         <td>Руководитель отдела по работе с клиентами</td>
