@@ -26,59 +26,17 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    @foreach ($users as $usr)
                                     <tr>
-                                        <td>Гаврилко Сергей</td>
-                                        <td>Директор</td>
-                                        <td>Администрация</td>
+                                        <td>{{ $usr->name}}</td>
+                                        <td>{{ $usr->posit->name }}</td>
+                                        <td>{{ $usr->posit->dept->name }}</td>
                                         <td>
                                             <a class="btn btn-warning" href="#">Изменить</a>
                                             <a class="btn btn-danger" href="#">Удалить</a>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>Крепская Александра</td>
-                                        <td>Финансовый менеджер</td>
-                                        <td>Финансовый отдел</td>
-                                        <td>
-                                            <a class="btn btn-warning" href="#">Изменить</a>
-                                            <a class="btn btn-danger" href="#">Удалить</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Засеко Елена</td>
-                                        <td>Главный бухгалтер</td>
-                                        <td>Бухгалтерия</td>
-                                        <td>
-                                            <a class="btn btn-warning" href="#">Изменить</a>
-                                            <a class="btn btn-danger" href="#">Удалить</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Минец Юлия</td>
-                                        <td>Руководитель отдела маркетинга</td>
-                                        <td>Отдел маркеринга</td>
-                                        <td>
-                                            <a class="btn btn-warning" href="#">Изменить</a>
-                                            <a class="btn btn-danger" href="#">Удалить</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Крек Сергей</td>
-                                        <td>Руководитель отдела продаж автомобилей</td>
-                                        <td>Отдел продаж автомобилейя</td>
-                                        <td>
-                                            <a class="btn btn-warning" href="#">Изменить</a>
-                                            <a class="btn btn-danger" href="#">Удалить</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Таубалдина Жанна</td>
-                                        <td>Руководитель отдела по работе с клиентами</td>
-                                        <td>Отдел по работе с клиентами</td>
-                                        <td>
-                                            <a class="btn btn-warning" href="#">Изменить</a>
-                                            <a class="btn btn-danger" href="#">Удалить</a>
-                                        </td>
+                                    @endforeach
 
                                 </tbody>
                             </table>

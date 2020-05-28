@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Empl;
 
 class HomeController extends Controller
 {
@@ -23,8 +24,11 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $users = Empl::all();
+
         $data = [
             'content' => 'atl.phone',
+            'users' => $users
         ];
 
         return view('atl.home', $data);
@@ -32,16 +36,22 @@ class HomeController extends Controller
 
     public function admin()
     {
+        $users = Empl::all();
+
         $data = [
             'content' => 'atl.admin',
+            'users' => $users
         ];
         return view('atl.home', $data);
     }
 
     public function adminphone()
     {
+        $users = Empl::all();
+
         $data = [
             'content' => 'atl.admin.phone',
+            'users' => $users
         ];
         return view('atl.home', $data);
     }
