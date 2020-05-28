@@ -41,7 +41,7 @@
                                                     <a href="javascript:void(0);" class="dropdown-toggle user-name"
                                                         data-toggle="dropdown">{{ $usr->name}}</a>
                                                     <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                                                        @foreach($usr->phones as $ph)
+                                                        @foreach($usr->phone as $ph)
                                                         <li><i class="icon-call-end" style="margin: 10px;"></i>{{ $ph->num}}</li>
                                                         @endforeach
                                                         <li><i class="icon-envelope" style="margin: 10px;"></i>{{ $usr->email }}</li>
