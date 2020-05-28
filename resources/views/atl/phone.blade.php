@@ -23,7 +23,7 @@
                                         <th>Отдел</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="table-bordered">
                                     {{-- <tr>
                                         <td>Засеко Елена</td>
                                         <td>25156</td>
