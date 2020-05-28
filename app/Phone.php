@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Phone extends Model
 {
@@ -17,7 +18,7 @@ class Phone extends Model
     protected $dates = ['deleted_at'];
 
     public function empl(){
-        
+
         return $this->belongsTo('App\Empl');
     }
 }
