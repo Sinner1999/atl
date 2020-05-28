@@ -64,7 +64,7 @@
                                                     <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
                                                         <li><i class="icon-call-end" style="margin: 10px;"></i>25157</li>
                                                         <li><i class="icon-call-end" style="margin: 10px;"></i>+375-29-378-36-04</li>
-                                                        <li><i class="icon-envelope" style="margin: 10px;"></i>alexandra_krepskaya@atlantm.com</li>
+                                                        <li><i class="icon-envelope" style="margin: 10px;"></i>aleksandra_krepskaya@atlantm.com</li>
                                                     </ul>
                                                 </div>
                                             </div>
