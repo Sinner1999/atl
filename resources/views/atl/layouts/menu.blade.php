@@ -16,10 +16,10 @@
                 <a href="javascript:void(0);" class="dropdown-toggle user-name"
                     data-toggle="dropdown"><strong>Louis Pierce</strong></a>
                 <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                    <li><a href="page-profile.html"><i class="icon-user"></i>My Profile</a></li>
+                    {{-- <li><a href="page-profile.html"><i class="icon-user"></i>My Profile</a></li>
                     <li><a href="app-inbox.html"><i class="icon-envelope-open"></i>Messages</a></li>
                     <li><a href="javascript:void(0);"><i class="icon-settings"></i>Settings</a></li>
-                    <li class="divider"></li>
+                    <li class="divider"></li> --}}
                     @auth
                         <li>
                             <a href="{{ route('logout') }}"

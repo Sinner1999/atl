@@ -24,13 +24,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {{-- <tr>
-                                        <td>Засеко Елена</td>
-                                        <td>25156</td>
-                                        <td>Главный бухгалтер</td>
-                                        <td>Бухгалтерия</td>
-
-                                    </tr> --}}
                                     @foreach ($users as $usr)
                                     <tr>
                                         <td></td>
