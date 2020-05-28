@@ -33,7 +33,7 @@
                                         <td>{{ $usr->posit->name }}</td>
                                         <td>{{ $usr->posit->dept->name }}</td>
                                         <td>
-                                            <a class="btn btn-info" href="#">Добавить телефон</a>
+                                            <a class="btn btn-info" href="#">Телефоны</a>
                                             <a class="btn btn-warning" href="#">Изменить</a>
                                             <a class="btn btn-danger" href="#">Удалить</a>
                                         </td>
