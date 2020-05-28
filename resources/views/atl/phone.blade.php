@@ -13,7 +13,7 @@
                 <div class="card">
                     <div class="body">
                         <div class="table-responsive">
-                            <table class="table table-striped text-light table-bordered table-hover dataTable js-exportable">
+                            <table class="table table-hover text-light table-bordered dataTable js-exportable">
                                 <thead>
                                     <tr>
                                         <th></th>
