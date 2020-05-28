@@ -16,6 +16,7 @@
                 <a href="javascript:void(0);" class="dropdown-toggle user-name"
                     data-toggle="dropdown"><strong>Louis Pierce</strong></a>
                 <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
+                    @auth
                         <li>
                             <a href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
