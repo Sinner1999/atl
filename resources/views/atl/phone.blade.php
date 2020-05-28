@@ -24,6 +24,13 @@
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td>Засеко Елена</td>
+                                        <td>25156</td>
+                                        <td>Главный бухгалтер</td>
+                                        <td>Бухгалтерия</td>
+
+                                    </tr>
+                                    <tr>
                                         <td>
                                             <div class="sidebar-scroll">
                                                 <div class="dropdown">
