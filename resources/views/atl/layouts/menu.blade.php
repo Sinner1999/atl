@@ -16,11 +16,6 @@
                 <a href="javascript:void(0);" class="dropdown-toggle user-name"
                     data-toggle="dropdown"><strong>Louis Pierce</strong></a>
                 <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                    {{-- <li><a href="page-profile.html"><i class="icon-user"></i>My Profile</a></li>
-                    <li><a href="app-inbox.html"><i class="icon-envelope-open"></i>Messages</a></li>
-                    <li><a href="javascript:void(0);"><i class="icon-settings"></i>Settings</a></li>
-                    <li class="divider"></li> --}}
-                    @auth
                         <li>
                             <a href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
@@ -47,12 +42,10 @@
                 <li><a href="../jobportal/index.html"><i class="icon-badge"></i><span>Трям</span></a></li>
                 @auth
                     <li class="header">Администратор</li>
-                    <li><a href="/admin"><i class="icon-users"></i><span>Справочник</span></a></li>
-                    <li><a href="/admin/people"><i class="icon-user-follow"></i><span>Люди</span></a></li>
-                    <li><a href="/admin/dept"><i class="icon-briefcase"></i><span>Отделы</span></a>
-                    <li><a href="/admin/posit"><i class="icon-user"></i><span>Должности</span></a>
+                    <li><a href="/admin"><i class="icon-users"></i><span>Сотрудники</span></a></li>
+                    <li><a href="/admin/dept"><i class="icon-briefcase"></i><span>Отделы</span></a></li>
+                    <li><a href="/admin/posit"><i class="icon-user"></i><span>Должности</span></a></li>
                 @endauth
-                </li>
 
             </ul>
         </nav>
