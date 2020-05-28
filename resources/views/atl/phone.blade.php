@@ -24,19 +24,20 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <div class="sidebar-scroll">
-                                            <div class="dropdown">
+                                        <td>
+                                            <div class="sidebar-scroll">
+                                                <div class="dropdown">
 
-                                                <a href="javascript:void(0);" class="dropdown-toggle user-name"
-                                                    data-toggle="dropdown">Гаврилко Сергей</a>
-                                                <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                                                    <li><i class="icon-call-end" style="margin: 10px;"></i>25150</li>
-                                                    <li><i class="icon-call-end" style="margin: 10px;"></i>+375-44-537-11-11</li>
-                                                    <li><i class="icon-envelope" style="margin: 10px;"></i>sergey_gavrilko@atlantm.com</li>
-                                                </ul>
+                                                    <a href="javascript:void(0);" class="dropdown-toggle user-name"
+                                                        data-toggle="dropdown">Гаврилко Сергей</a>
+                                                    <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
+                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>25150</li>
+                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>+375-44-537-11-11</li>
+                                                        <li><i class="icon-envelope" style="margin: 10px;"></i>sergey_gavrilko@atlantm.com</li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </tr>
+                                        </td>
                                         <td>25150</td>
                                         <td>Директор</td>
                                         <td>Администрация</td>
@@ -44,7 +45,7 @@
                                     </tr>
 
                                     <tr>
-                                        <tr>
+                                        <td>
                                             <div class="sidebar-scroll">
                                                 <div class="dropdown">
 
@@ -57,7 +58,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </tr>
+                                        </td>
                                         <td>25157</td>
                                         <td>Финансовый менеджер</td>
                                         <td>Финансовый отдел</td>
