@@ -4,7 +4,8 @@ $(function () {
     // Exportable table
     $('.js-exportable').DataTable({
         dom: 'Bfrtip',
-        buttons: []
+        buttons: [],
+        paging: 'false'
     });
 });
 
