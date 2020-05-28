@@ -14,10 +14,10 @@
                     <div class="header">
 
                     </div>
-                    <a class="btn btn-warning" href="/admin/phone">Изменение телефонного справочника</a>
-                    <a class="btn btn-warning" href="/admin/dept">Изменение справочника отделов</a>
-                    <a class="btn btn-warning" href="/admin/posit">Изменение справочника должностей</a>
-                    <a class="btn btn-warning" href="/admin/phone">Изменение телефонного справочника</a>
+                    <a class="btn btn-info btn-round" href="/admin/phone">Изменение телефонного справочника</a>
+                    <a class="btn btn-info btn-round" href="/admin/dept">Изменение справочника отделов</a>
+                    <a class="btn btn-info btn-round" href="/admin/posit">Изменение справочника должностей</a>
+                    <a class="btn btn-info btn-round" href="/admin/phone">Изменение телефонного справочника</a>
                 </div>
             </div>
         </div>
