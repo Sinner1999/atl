@@ -45,7 +45,12 @@
                 <li><a href="/"><i class="icon-speedometer"></i><span>Справочник</span></a></li>
                 <li><a href="/doc"><i class="icon-diamond"></i><span>Документы</span></a></li>
                 <li><a href="../jobportal/index.html"><i class="icon-badge"></i><span>Трям</span></a></li>
-                <li><a href="../landing/index.html"><i class="icon-cursor"></i><span>Трям</span></a>
+                @auth
+                    <li class="header">Администратор</li>
+                    <li><a href="/admin/phone"><i class="icon-user"></i><span>Люди</span></a></li>
+                    <li><a href="/admin/dept"><i class="icon-user"></i><span>Отделы</span></a>
+                    <li><a href="/admin/posit"><i class="icon-user"></i><span>Должности</span></a>
+                @endauth
                 </li>
 
             </ul>
