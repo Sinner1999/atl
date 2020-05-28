@@ -135,7 +135,7 @@
                                                 <div class="dropdown">
 
                                                     <a href="javascript:void(0);" class="dropdown-toggle user-name"
-                                                        data-toggle="dropdown"><strong>Крек Сергей</strong></a>
+                                                        data-toggle="dropdown">Крек Сергей</a>
                                                     <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
                                                         <li><i class="icon-call-end" style="margin: 10px;"></i>25100</li>
                                                         <li><i class="icon-call-end" style="margin: 10px;"></i>26100</li>
