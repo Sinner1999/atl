@@ -43,14 +43,13 @@
             <ul id="main-menu" class="metismenu">
                 <li class="header">Меню</li>
                 <li><a href="/"><i class="icon-speedometer"></i><span>Справочник</span></a></li>
-                <li><a href="/doc"><i class="icon-book"></i><span>Документы</span></a></li>
+                <li><a href="/doc"><i class="icon-doc"></i><span>Документы</span></a></li>
                 <li><a href="../jobportal/index.html"><i class="icon-badge"></i><span>Трям</span></a></li>
                 @auth
                     <li class="header">Администратор</li>
                     <li><a href="/admin"><i class="icon-users"></i><span>Справочник</span></a></li>
                     <li><a href="/admin/people"><i class="icon-user-follow"></i><span>Люди</span></a></li>
                     <li><a href="/admin/dept"><i class="icon-briefcase"></i><span>Отделы</span></a>
-                    <li><a href="/admin/posit"><i class="icon-user"></i><span>Должности</span></a>
                     <li><a href="/admin/posit"><i class="icon-user"></i><span>Должности</span></a>
                 @endauth
                 </li>
