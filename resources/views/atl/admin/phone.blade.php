@@ -86,6 +86,7 @@
 
 
                     </div>
+                    <br>
                     <a class="btn btn-info" href="/admin">Назад</a>
                 </div>
             </div>
