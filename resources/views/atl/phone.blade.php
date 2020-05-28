@@ -76,7 +76,20 @@
                                     </tr>
                                     <tr>
                                         <td></td>
-                                        <td>Засеко Елена</td>
+                                        <td>
+                                            <div class="sidebar-scroll">
+                                                <div class="dropdown">
+
+                                                    <a href="javascript:void(0);" class="dropdown-toggle user-name"
+                                                        data-toggle="dropdown">Засеко Елена</a>
+                                                    <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
+                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>25156</li>
+                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>+375-29-692-02-01</li>
+                                                        <li><i class="icon-envelope" style="margin: 10px;"></i>elena_zaseko@atlantm.com</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </td>
                                         <td>25156</td>
                                         <td>Главный бухгалтер</td>
                                         <td>Бухгалтерия</td>
@@ -84,7 +97,20 @@
                                     </tr>
                                     <tr>
                                         <td></td>
-                                        <td>Минец Юлия</td>
+                                        <td>
+                                            <div class="sidebar-scroll">
+                                                <div class="dropdown">
+
+                                                    <a href="javascript:void(0);" class="dropdown-toggle user-name"
+                                                        data-toggle="dropdown">Минец Юлия</a>
+                                                    <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
+                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>25153</li>
+                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>+375-29-668-54-65</li>
+                                                        <li><i class="icon-envelope" style="margin: 10px;"></i>yulia_minets@atlantm.com</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </td>
                                         <td>25153</td>
                                         <td>Руководитель отдела маркетинга</td>
                                         <td>Отдел маркеринга</td>
@@ -117,7 +143,20 @@
 
                                     <tr>
                                         <td></td>
-                                        <td>Таубалдина Жанна</td>
+                                        <td>
+                                            <div class="sidebar-scroll">
+                                                <div class="dropdown">
+
+                                                    <a href="javascript:void(0);" class="dropdown-toggle user-name"
+                                                        data-toggle="dropdown">Таубалдина Жанна</a>
+                                                    <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
+                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>25140</li>
+                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>+375-29-750-59-16</li>
+                                                        <li><i class="icon-envelope" style="margin: 10px;"></i>zhanna_taubaldina@atlantm.com</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </td>
                                         <td>25140</td>
                                         <td>Руководитель отдела по работе с клиентами</td>
                                         <td>Отдел по работе с клиентами</td>
