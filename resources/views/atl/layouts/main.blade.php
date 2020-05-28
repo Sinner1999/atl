@@ -28,25 +28,12 @@
                 </div>
 
                 <div class="navbar-right">
-                    {{-- <div id="navbar-menu">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="javascript:void(0);" class="search_toggle icon-menu" title="Search Result">
-                                    <i class="icon-magnifier"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div> --}}
                 </div>
             </div>
             <div class="progress-container">
                 <div class="progress-bar" id="myBar"></div>
             </div>
         </nav>
-
-
-
-        @yield('search')
 
         @yield('menu')
 
