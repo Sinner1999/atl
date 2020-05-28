@@ -5,7 +5,8 @@ $(function () {
     $('.js-exportable').DataTable({
         dom: 'Bfrtip',
         buttons: [],
-        "paging": false
+        "paging": false,
+        "order": [[ 4, "asc" ]]
     });
 });
 
