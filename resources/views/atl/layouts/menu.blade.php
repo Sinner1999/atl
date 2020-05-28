@@ -34,7 +34,7 @@
                         </li>
                     @endauth
                     @guest
-                        <li><a href="../admin"><i class="icon-power"></i><span>Login</span></a></li>
+                        <li><a href="../login"><i class="icon-power"></i><span>Login</span></a></li>
                     @endguest
                 </ul>
             </div>
