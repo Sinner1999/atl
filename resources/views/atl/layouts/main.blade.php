@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="navbar-right">
-                    <div id="navbar-menu">
+                    {{-- <div id="navbar-menu">
                         <ul class="nav navbar-nav">
                             <li>
                                 <a href="javascript:void(0);" class="search_toggle icon-menu" title="Search Result">
@@ -36,7 +36,7 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="progress-container">
@@ -44,7 +44,7 @@
             </div>
         </nav>
 
-        
+
 
         @yield('search')
 
@@ -56,7 +56,7 @@
 
     @yield('scripts')
 
-    
+
 </body>
 
 </html>
