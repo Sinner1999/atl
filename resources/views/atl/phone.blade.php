@@ -16,6 +16,7 @@
                             <table class="table table-striped table-hover dataTable js-exportable">
                                 <thead>
                                     <tr>
+                                        <th></th>
                                         <th><strong>Фамилия Имя</strong></th>
                                         <th>Вн Тел</th>
                                         <th>Должность</th>
@@ -23,14 +24,15 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    {{-- <tr>
                                         <td>Засеко Елена</td>
                                         <td>25156</td>
                                         <td>Главный бухгалтер</td>
                                         <td>Бухгалтерия</td>
 
-                                    </tr>
+                                    </tr> --}}
                                     <tr>
+                                        <td></td>
                                         <td>
                                             <div class="sidebar-scroll">
                                                 <div class="dropdown">
