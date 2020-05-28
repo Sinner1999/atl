@@ -8,6 +8,13 @@ $(function () {
         "paging": false,
         "order": [[ 4, "asc" ]]
     });
+
+    $('.js-exportable-admin').DataTable({
+        dom: 'Bfrtip',
+        buttons: [],
+        "paging": false,
+        "order": [[ 0, "asc" ]]
+    });
 });
 
 /* Formatting function for row details - modify as you need */

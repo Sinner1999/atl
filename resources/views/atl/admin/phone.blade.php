@@ -63,23 +63,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
-                                            <div class="sidebar-scroll">
-                                                <div class="dropdown">
-
-                                                    <a href="javascript:void(0);" class="dropdown-toggle user-name"
-                                                        data-toggle="dropdown">Крек Сергей</a>
-                                                    <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>25100</li>
-                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>26100</li>
-                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>+375-29-837-12-97</li>
-                                                        <li><i class="icon-call-end" style="margin: 10px;"></i>+375-29-620-75-37</li>
-                                                        <li class="divider"></li>
-                                                        <li><i class="icon-envelope" style="margin: 10px;"></i>sergey_krek@atlantm.com</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </td>
+                                        <td>Крек Сергей</td>
                                         <td>Руководитель отдела продаж автомобилей</td>
                                         <td>Отдел продаж автомобилейя</td>
                                         <td>
