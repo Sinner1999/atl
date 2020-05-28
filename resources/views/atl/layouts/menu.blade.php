@@ -51,6 +51,7 @@
                     <li><a href="/admin/people"><i class="icon-user-follow"></i><span>Люди</span></a></li>
                     <li><a href="/admin/dept"><i class="icon-briefcase"></i><span>Отделы</span></a>
                     <li><a href="/admin/posit"><i class="icon-user"></i><span>Должности</span></a>
+                    <li><a href="/admin/posit"><i class="icon-user"></i><span>Должности</span></a>
                 @endauth
                 </li>
 
