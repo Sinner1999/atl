@@ -89,9 +89,6 @@
 
             <div class="col-lg-12">
                 <div class="card">
-                    <div class="header">
-                        <h2>Table Tools<small>Basic example without any additional modification classes</small></h2>
-                    </div>
                     <div class="body">
                         <div class="table-responsive">
                             <table class="table table-striped table-hover dataTable js-exportable">
