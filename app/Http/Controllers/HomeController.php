@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Empl;
+use App\Empl;
 
 class HomeController extends Controller
 {
