@@ -16,7 +16,7 @@
                     </div>
                     <div class="body">
                         <div class="table-responsive">
-                            <table class="table table-striped table-light table-hover dataTable js-exportable">
+                            <table class="table table-striped table-blue table-hover dataTable js-exportable-admin">
                                 <thead>
                                     <tr>
                                         <th><strong>Фамилия Имя</strong></th>
