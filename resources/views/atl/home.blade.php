@@ -18,11 +18,11 @@
 
 @endsection
 
-@section('search')
+{{-- @section('search')
 
     @include('atl.layouts.search')
 
-@endsection
+@endsection --}}
 
 @section('scripts')
 
