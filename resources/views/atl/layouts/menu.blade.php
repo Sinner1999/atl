@@ -47,7 +47,8 @@
                 <li><a href="../jobportal/index.html"><i class="icon-badge"></i><span>Трям</span></a></li>
                 @auth
                     <li class="header">Администратор</li>
-                    <li><a href="/admin/phone"><i class="icon-user"></i><span>Люди</span></a></li>
+                    <li><a href="/admin"><i class="icon-user"></i><span>Справочник</span></a></li>
+                    <li><a href="/admin/people"><i class="icon-user"></i><span>Люди</span></a></li>
                     <li><a href="/admin/dept"><i class="icon-user"></i><span>Отделы</span></a>
                     <li><a href="/admin/posit"><i class="icon-user"></i><span>Должности</span></a>
                 @endauth

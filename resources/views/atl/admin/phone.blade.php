@@ -88,6 +88,7 @@
                     </div>
                     <br>
                     <a class="btn btn-info" href="/admin">Назад</a>
+                    <a class="btn btn-info" href="/admin/add">Назад</a>
                 </div>
             </div>
         </div>
