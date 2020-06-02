@@ -40,7 +40,7 @@
                 <li class="header">Меню</li>
                 <li><a href="/"><i class="icon-speedometer"></i><span>Справочник</span></a></li>
                 <li><a href="/doc"><i class="icon-doc"></i><span>Документы</span></a></li>
-                <li><a href="../jobportal/index.html"><i class="icon-badge"></i><span>Трям</span></a></li>
+                <li><a href="/ozch"><i class="icon-badge"></i><span>ОЗЧ</span></a></li>
                 @auth
                     <li class="header">Администратор</li>
                     <li><a href="/admin"><i class="icon-users"></i><span>Сотрудники</span></a></li>

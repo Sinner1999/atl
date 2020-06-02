@@ -55,4 +55,15 @@ class HomeController extends Controller
         ];
         return view('atl.home', $data);
     }
+
+    public function ozchroot()
+    {
+        // $users = Empl::all();
+
+        $data = [
+            'content' => 'atl.ozch.home',
+            // 'users' => $users
+        ];
+        return view('atl.home', $data);
+    }
 }

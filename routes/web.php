@@ -29,6 +29,12 @@ Route::prefix('admin', )->middleware('auth')->group(function(){
 
 });
 
+Route::prefix('ozch', )->middleware('auth')->group(function(){
+
+    Route::get('/', ['uses' => 'HomeController@ozch', 'as' => 'ozchroot']);
+
+});
+
 // Route::get('/admin', 'HomeController@admin')->name('admin')->middleware('auth');
 
 
