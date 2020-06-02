@@ -56,7 +56,7 @@ class HomeController extends Controller
         return view('atl.home', $data);
     }
 
-    public function ozchroot()
+    public function ozch()
     {
         // $users = Empl::all();
 
