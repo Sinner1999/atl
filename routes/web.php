@@ -29,7 +29,7 @@ Route::prefix('admin', )->middleware('auth')->group(function(){
 
 });
 
-Route::prefix('ozch', )->middleware('auth')->group(function(){
+Route::prefix('ozch', )->group(function(){
 
     Route::get('/', ['uses' => 'HomeController@ozch', 'as' => 'ozchroot']);
 
