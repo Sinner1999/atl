@@ -16,7 +16,7 @@
                 <a href="javascript:void(0);" class="dropdown-toggle user-name"
                     data-toggle="dropdown"><strong>Louis Pierce</strong></a>
                 <ul class="dropdown-menu dropdown-menu-right account vivify flipInY">
-                    @auth('admin')
+                    @auth
                         <li>
                             <a href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
@@ -40,10 +40,10 @@
                 <li class="header">Меню</li>
                 <li><a href="/"><i class="icon-speedometer"></i><span>Справочник</span></a></li>
                 <li><a href="/doc"><i class="icon-doc"></i><span>Документы</span></a></li>
-                @auth('ozch')
+                @if (Auth::user()->name == 'ozch')
                 <li><a href="/ozch"><i class="icon-badge"></i><span>ОЗЧ</span></a></li>
-                @endauth
-                @auth('admin')
+                @endif
+                @auth
                     <li class="header">Администратор</li>
                     <li><a href="/admin"><i class="icon-users"></i><span>Сотрудники</span></a></li>
                     <li><a href="/admin/dept"><i class="icon-briefcase"></i><span>Отделы</span></a></li>
