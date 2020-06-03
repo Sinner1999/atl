@@ -40,9 +40,9 @@
                 <li class="header">Меню</li>
                 <li><a href="/"><i class="icon-speedometer"></i><span>Справочник</span></a></li>
                 <li><a href="/doc"><i class="icon-doc"></i><span>Документы</span></a></li>
-                @if (Auth::user()->name == 'ozch')
-                <li><a href="/ozch"><i class="icon-badge"></i><span>ОЗЧ</span></a></li>
-                @endif
+                {{-- @if (Auth::user()->name == 'ozch') --}}
+            <li><a href="/ozch"><i class="icon-badge"></i><span>ОЗЧ {{ Auth::user() }}</span></a></li>
+                {{-- @endif --}}
                 @auth
                     <li class="header">Администратор</li>
                     <li><a href="/admin"><i class="icon-users"></i><span>Сотрудники</span></a></li>
