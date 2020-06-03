@@ -28,7 +28,7 @@
                                     @foreach ($posit as $pos)
                                     <tr>
                                         <td>{{ $pos->name}}</td>
-                                        <td>{{ $posit->dept->name}}</td>
+                                        <td>{{ $pos->dept->name}}</td>
                                         <td>
                                             <a class="btn btn-warning" href="#">Изменить</a>
                                             <a class="btn btn-danger" href="#">Удалить</a>
