@@ -56,6 +56,28 @@ class HomeController extends Controller
         return view('atl.home', $data);
     }
 
+    public function admindept()
+    {
+        $dept = Dept::all();
+
+        $data = [
+            'content' => 'atl.admin.dept',
+            'dept' => $dept
+        ];
+        return view('atl.home', $data);
+    }
+
+    public function adminposit()
+    {
+        $users = Empl::all();
+
+        $data = [
+            'content' => 'atl.admin.phone',
+            'users' => $users
+        ];
+        return view('atl.home', $data);
+    }
+
     public function ozch()
     {
         // $users = Empl::all();
