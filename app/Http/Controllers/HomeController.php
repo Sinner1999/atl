@@ -71,11 +71,11 @@ class HomeController extends Controller
 
     public function adminposit()
     {
-        $users = Empl::all();
+        $posit = Posit::all();
 
         $data = [
-            'content' => 'atl.admin.phone',
-            'users' => $users
+            'content' => 'atl.admin.posit',
+            'posit' => $posit
         ];
         return view('atl.home', $data);
     }
