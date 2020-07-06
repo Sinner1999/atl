@@ -84,7 +84,7 @@ class HomeController extends Controller
     {
         // $users = Empl::all();
         $au = file_get_contents('https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
-        $au = json_decode($au, true);
+        // $au = json_decode($au, true);
 
         // $pdata = http_build_query([
 
