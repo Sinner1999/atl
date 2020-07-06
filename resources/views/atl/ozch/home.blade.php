@@ -16,8 +16,10 @@
                     </div>
                     <div class="body">
                         <div class="table-responsive">
+                            {{ $au }}
+
                             {{-- @foreach ($au as $key => $val) --}}
-                                {{$key.'---'.$val.PHP_EOL}}
+                                {{-- {{$key.'---'.$val.PHP_EOL}} --}}
                             {{-- @endforeach --}}
                             {{-- <table class="table table-hover table-bordered text-light dataTable js-exportable-admin">
                                 <thead>
