@@ -89,8 +89,8 @@ class HomeController extends Controller
         if( $curl = curl_init() ) {
             curl_setopt($curl, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
             curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);
-            $out = curl_exec($curl);
-            echo $out;
+            $au = curl_exec($curl);
+            // echo $out;
             curl_close($curl);
           }
 
