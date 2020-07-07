@@ -16,7 +16,7 @@
                     </div>
                     <div class="body">
                         <div class="table-responsive">
-                            @@php
+                            @php
                                 print_r($au);
                             @endphp
 
