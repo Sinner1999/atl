@@ -16,7 +16,10 @@
                     </div>
                     <div class="body">
                         <div class="table-responsive">
-                            {{ $au }}
+                            @@php
+                                print_r($au);
+                            @endphp
+
 
                             {{-- @foreach ($au as $key => $val) --}}
                                 {{-- {{$key.'---'.$val.PHP_EOL}} --}}
