@@ -17,7 +17,7 @@
                     <div class="body">
                         <div class="table-responsive">
                             @php
-                                print_r($au);
+                                vardump($au);
                             @endphp
 
 
