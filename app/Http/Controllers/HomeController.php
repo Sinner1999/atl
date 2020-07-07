@@ -94,7 +94,7 @@ class HomeController extends Controller
             curl_close($curl);
           }
 
-
+        vardump($au);
         // $pdata = http_build_query([
 
         // ])

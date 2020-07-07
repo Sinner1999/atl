@@ -16,10 +16,7 @@
                     </div>
                     <div class="body">
                         <div class="table-responsive">
-                            @php
-                                vardump($au);
-                            @endphp
-
+                            {{-- vardump($au); --}}
 
                             {{-- @foreach ($au as $key => $val) --}}
                                 {{-- {{$key.'---'.$val.PHP_EOL}} --}}
