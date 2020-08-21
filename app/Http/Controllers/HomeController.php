@@ -86,15 +86,15 @@ class HomeController extends Controller
         // $au = file_get_contents('https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
         // $au = json_decode($au, true);
 
-        if( $curl = curl_init() ) {
-            curl_setopt($curl, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
-            curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);
-            $au = curl_exec($curl);
-            // echo $out;
-            curl_close($curl);
-          }
+        // if( $curl = curl_init() ) {
+        //     curl_setopt($curl, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
+        //     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        //     $au = curl_exec($curl);
+        //     // echo $out;
+        //     curl_close($curl);
+        //   }
 
-        dd($au);
+        // dd($au);
         // $pdata = http_build_query([
 
         // ])
