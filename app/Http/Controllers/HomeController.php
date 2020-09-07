@@ -85,7 +85,7 @@ class HomeController extends Controller
 
         $data = [
             'content' => 'atl.ozch.home',
-            'au' => $au,
+            // 'au' => $au,
             // 'users' => $users
         ];
         return view('atl.home', $data);
