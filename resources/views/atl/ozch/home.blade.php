@@ -16,35 +16,7 @@
                     </div>
                     <div class="body">
                         <div class="table-responsive">
-                            {{-- vardump($au); --}}
 
-                            {{-- @foreach ($au as $key => $val) --}}
-                                {{-- {{$key.'---'.$val.PHP_EOL}} --}}
-                            {{-- @endforeach --}}
-                            {{-- <table class="table table-hover table-bordered text-light dataTable js-exportable-admin">
-                                <thead>
-                                    <tr>
-                                        <th><strong>Фамилия Имя</strong></th>
-                                        <th><strong>Должность</strong></th>
-                                        <th><strong>Отдел</strong></th>
-                                        <th><strong>Действия</strong></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach ($users as $usr)
-                                    <tr>
-                                        <td>{{ $usr->name}}</td>
-                                        <td>{{ $usr->posit->name }}</td>
-                                        <td>{{ $usr->posit->dept->name }}</td>
-                                        <td>
-                                            <a class="btn btn-warning" href="#">Изменить</a>
-                                            <a class="btn btn-danger" href="#">Удалить</a>
-                                        </td>
-                                    </tr>
-                                    @endforeach
-
-                                </tbody>
-                            </table> --}}
                         </div>
 
 
