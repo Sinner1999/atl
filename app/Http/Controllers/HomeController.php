@@ -82,6 +82,26 @@ class HomeController extends Controller
 
     public function ozch()
     {
+        // $api = $_GET["api"];
+        // $key = $_GET["key"];
+        // $text = $_GET["text"];
+        // $more = $_GET["more"];
+
+        //Если в адресную строку браузера вставить то, что возвращает $url, то все нормально
+        $url = "https://parts.toyota-motor.ru/rest/jofl.doHelo.aws";
+        $url = urlencode($url);
+
+        $opts = array(
+        'http'=>array(
+        'method'=>"GET",
+        'header'=>"Accept-language: en\r\n" .
+                "Cookie: foo=bar\r\n"
+        )
+        );
+        $context = stream_context_create($opts);
+
+        $data = file_get_contents($url, false, $context);
+        var_dump($data);
 
         $data = [
             'content' => 'atl.ozch.home',
