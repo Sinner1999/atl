@@ -44,9 +44,6 @@
             <li>
                 <a href="/ozch"><i class="icon-badge"></i><span>ОЗЧ</span></a>
 
-                <form id="ozch-session" action="{{ route('ozch') }}" method="GET" style="display: none;">
-                    @csrf
-            </form>
             </li>
                 {{-- @endif --}}
                 @auth
