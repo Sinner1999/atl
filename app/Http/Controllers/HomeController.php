@@ -89,7 +89,7 @@ class HomeController extends Controller
 
         //Если в адресную строку браузера вставить то, что возвращает $url, то все нормально
         $url = "https://parts.toyota-motor.ru/rest/jofl.doHelo.aws";
-        $url = urlencode($url);
+        // $url = urlencode($url);
 
         $opts = array(
         'http'=>array(
