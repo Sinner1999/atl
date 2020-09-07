@@ -82,9 +82,9 @@ class HomeController extends Controller
 
     public function ozch()
     {
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
-        curl_setopt($ch, CURLOPT_HEADER, true);
+        $ch = curl_init('https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
+        // curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
+        curl_setopt($ch, CURLOPT_HEADER, false);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
         $data = curl_exec($ch);
