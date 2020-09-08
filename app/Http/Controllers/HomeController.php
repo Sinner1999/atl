@@ -99,8 +99,8 @@ class HomeController extends Controller
 
         $ch = curl_init(); //'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
         curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
-        // curl_setopt($ch, CURLOPT_COOKIEFILE, __DIR__ . '/cookie.txt');
-        // curl_setopt($ch, CURLOPT_COOKIEJAR, __DIR__ . '/cookie.txt');
+        curl_setopt($ch, CURLOPT_COOKIEFILE, 'cookie.txt');
+        curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
         // curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_HTTPPROXYTUNNEL, true);
         curl_setopt($ch, CURLOPT_PROXY, "172.16.15.80:3128");
