@@ -103,7 +103,7 @@ class HomeController extends Controller
         // curl_setopt($ch, CURLOPT_COOKIEJAR, __DIR__ . '/cookie.txt');
         // curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_PROXY, "172.16.15.80:3128");
-        curl_setopt($ch, CURLOPT_HEADER, false);
+        curl_setopt($ch, CURLOPT_HEADER, true);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
         $dt = curl_exec($ch);
