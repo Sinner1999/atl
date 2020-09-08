@@ -88,14 +88,14 @@ class HomeController extends Controller
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
         $data = curl_exec($ch);
-        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        var_dump($http_code );
+        // $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        // var_dump($http_code );
 
         curl_close($ch);
 
         $data = [
             'content' => 'atl.ozch.home',
-            // 'au' => $au,
+            'au' => $data,
             // 'users' => $users
         ];
         return view('atl.home', $data);

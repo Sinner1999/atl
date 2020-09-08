@@ -17,6 +17,8 @@
                     <div class="body">
                         <div class="table-responsive">
 
+                            {{ $au }}
+
                         </div>
 
 
