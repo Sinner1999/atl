@@ -107,7 +107,7 @@ class HomeController extends Controller
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
         $dt = curl_exec($ch);
-        print_r($dt);
+        dd($dt);
         // $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         // var_dump($dt);
 
