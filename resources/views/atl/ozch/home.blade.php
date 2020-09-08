@@ -17,7 +17,7 @@
                     <div class="body">
                         <div class="table-responsive">
 
-                            {{ int($au) }}
+                            {{ intval($au) }}
 
                         </div>
 
