@@ -111,8 +111,9 @@ class HomeController extends Controller
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
         $dt = curl_exec($ch);
         // dd(curl_error($ch));
-        dd($dt);
-        // $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        // dd($dt);
+        $http_code = curl_getinfo($ch);
+        dd($http_code);
         // var_dump($dt);
 
         curl_close($ch);
@@ -120,6 +121,7 @@ class HomeController extends Controller
         $data = [
             'content' => 'atl.ozch.home',
             'au' => $dt,
+            'st' => $http_code,
             // 'users' => $users
         ];
         return view('atl.home', $data);
