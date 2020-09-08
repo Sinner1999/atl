@@ -97,8 +97,8 @@ class HomeController extends Controller
         );
 
 
-        $ch = curl_init('https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
-        // curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
+        $ch = curl_init(); //'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
+        curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
         // curl_setopt($ch, CURLOPT_COOKIEFILE, __DIR__ . '/cookie.txt');
         // curl_setopt($ch, CURLOPT_COOKIEJAR, __DIR__ . '/cookie.txt');
         // curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
@@ -108,7 +108,7 @@ class HomeController extends Controller
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
         $dt = curl_exec($ch);
         // $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        var_dump($dt);
+        // var_dump($dt);
 
         curl_close($ch);
 
