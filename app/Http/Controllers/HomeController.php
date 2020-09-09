@@ -122,6 +122,7 @@ class HomeController extends Controller
         $headers = [
             'set-cookie: JSESSIONID='.$cookies['JSESSIONID'],
         ];
+        curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_COOKIE, 'JSESSIONID='.$cookies['JSESSIONID']);
         curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doLogin.aws?userName=evgenii_rudy@atlantm.com&passwdHash='.md5('NCPDpass1`'));
 
