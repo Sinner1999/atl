@@ -117,7 +117,7 @@ class HomeController extends Controller
 	        $cookies = array_merge($cookies, $cookie);
 	    }
 
-        // dd($cookies);
+        var_dump($dt);
 
         $headers = [
             'set-cookie: JSESSIONID='.$cookies['JSESSIONID'],
