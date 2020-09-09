@@ -117,7 +117,7 @@ class HomeController extends Controller
 	        $cookies = array_merge($cookies, $cookie);
 	    }
 
-        dd($dt);
+        dd($cookies);
 
 
         curl_close($ch);
