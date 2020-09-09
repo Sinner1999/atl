@@ -94,13 +94,14 @@ class HomeController extends Controller
             'sec-fetch-mode: navigate',
             'accept-encoding: deflate, br',
             'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+            '_token: '
         );
 
 
         $ch = curl_init(); //'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
         curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
         // curl_setopt($ch, CURLOPT_COOKIEFILE, 'cookie.txt');
-        curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
+        // curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
         // curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         // curl_setopt($ch, CURLOPT_HTTPPROXYTUNNEL, true);
         curl_setopt($ch, CURLOPT_PROXY, "172.16.15.80:3128");
@@ -119,13 +120,25 @@ class HomeController extends Controller
 
         // dd($cookies);
 
+        $headers = [
+            '_token:'.$cookies['JSESSIONID'],
+        ];
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+        $dt = curl_exec($ch);
+
+        dd($dt);
 
         curl_close($ch);
+
+
+
+        $st =
 
         $data = [
             'content' => 'atl.ozch.home',
             // 'au' => $dt,
-            'st' => $cookies,
+            'st' => $st,
             // 'users' => $users
         ];
         return view('atl.home', $data);
