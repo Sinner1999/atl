@@ -17,7 +17,7 @@
                     <div class="body">
                         <div class="table-responsive">
 
-                            {{ dd($st) }}
+                            {{ var_dump($st) }}
 
                         </div>
 
