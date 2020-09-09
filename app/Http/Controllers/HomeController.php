@@ -94,7 +94,6 @@ class HomeController extends Controller
             'sec-fetch-mode: navigate',
             'accept-encoding: deflate, br',
             'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
-            '_token: '
         );
 
 
@@ -121,7 +120,7 @@ class HomeController extends Controller
         // dd($cookies);
 
         $headers = [
-            '_token:'.$cookies['JSESSIONID'],
+            'JSESSIONID: '.$cookies['JSESSIONID'],
         ];
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
