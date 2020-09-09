@@ -124,7 +124,7 @@ class HomeController extends Controller
 
         $data = [
             'content' => 'atl.ozch.home',
-            'au' => $dt,
+            // 'au' => $dt,
             'st' => $cookies,
             // 'users' => $users
         ];
