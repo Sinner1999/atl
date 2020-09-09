@@ -122,7 +122,7 @@ class HomeController extends Controller
         $headers = [
             'set-cookie: JSESSIONID='.$cookies['JSESSIONID'],
         ];
-        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+        curl_setopt($ch, CURLOPT_COOKIE, 'JSESSIONID='.$cookies['JSESSIONID']);
 
         $dt = curl_exec($ch);
 
