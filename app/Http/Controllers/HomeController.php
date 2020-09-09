@@ -131,7 +131,7 @@ class HomeController extends Controller
 
         curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
 
-        curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doLogin.aws);
+        curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doLogin.aws');
 
 
         $dt = curl_exec($ch);
