@@ -124,7 +124,14 @@ class HomeController extends Controller
         ];
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_COOKIE, 'JSESSIONID='.$cookies['JSESSIONID']);
-        curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doLogin.aws?userName=evgenii_rudy@atlantm.com&passwdHash='.md5('NCPDpass1`'));
+        $post_data = [
+            'userName' => 'Evgenii_Rudy@atlantm.com',
+            'passwdHash' => md5('NCPDpass1`')
+        ];
+
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+
+        curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doLogin.aws);
 
 
         $dt = curl_exec($ch);
