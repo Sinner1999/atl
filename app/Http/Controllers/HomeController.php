@@ -110,11 +110,15 @@ class HomeController extends Controller
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
         $dt = curl_exec($ch);
-        // dd(curl_error($ch));
-        // dd($dt);
-        $http_code = curl_getinfo($ch);
-        dd($http_code);
-        // var_dump($dt);
+        preg_match_all('/^Set-Cookie:\s*([^;]*)/mi', $dt, $matches);
+	    $cookies = array();
+	    foreach($matches[1] as $item) {
+	        parse_str($item, $cookie);
+	        $cookies = array_merge($cookies, $cookie);
+	    }
+
+        dd($dt);
+
 
         curl_close($ch);
 
