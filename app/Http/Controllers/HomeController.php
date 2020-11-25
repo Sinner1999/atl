@@ -80,76 +80,12 @@ class HomeController extends Controller
         return view('atl.home', $data);
     }
 
-    public function ozch()
-    {
-
-        $headers = array(
-            'cache-control: max-age=0',
-            'upgrade-insecure-requests: 1',
-            'user-agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
-            'sec-fetch-user: ?1',
-            'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
-            'x-compress: null',
-            'sec-fetch-site: none',
-            'sec-fetch-mode: navigate',
-            'accept-encoding: deflate, br',
-            'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
-        );
-
-
-        $ch = curl_init(); //'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
-        curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doHelo.aws');
-        // curl_setopt($ch, CURLOPT_COOKIEFILE, 'cookie.txt');
-        // curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookie.txt');
-        // curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-        // curl_setopt($ch, CURLOPT_HTTPPROXYTUNNEL, true);
-        curl_setopt($ch, CURLOPT_PROXY, "172.16.15.80:3128");
-        // curl_setopt($ch, CURLOPT_COOKIESESSION, true);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_HEADER, 1);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
-        $dt = curl_exec($ch);
-        preg_match_all('/^Set-Cookie:\s*([^;]*)/mi', $dt, $matches);
-	    $cookies = array();
-	    foreach($matches[1] as $item) {
-	        parse_str($item, $cookie);
-	        $cookies = array_merge($cookies, $cookie);
-	    }
-
-        var_dump($dt);
-
-        $headers = [
-            'set-cookie: JSESSIONID='.$cookies['JSESSIONID'],
-        ];
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_COOKIE, 'JSESSIONID='.$cookies['JSESSIONID']);
-        $post_data = [
-            'userName' => 'Evgenii_Rudy@atlantm.com',
-            'passwdHash' => md5('NCPDpass1`')
-        ];
-
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
-
-        curl_setopt($ch, CURLOPT_URL, 'https://parts.toyota-motor.ru/rest/jofl.doLogin.aws');
-
-
-        $dt = curl_exec($ch);
-
-        dd($dt);
-
-        curl_close($ch);
-
-
-
-        $st =
-
-        $data = [
-            'content' => 'atl.ozch.home',
-            // 'au' => $dt,
-            'st' => $st,
-            // 'users' => $users
-        ];
-        return view('atl.home', $data);
+    public function doc(){
+	
+	$data = [
+	    'content' => 'atl.doc.root',
+	];
+	return view('atl.home', $data);
     }
+
 }

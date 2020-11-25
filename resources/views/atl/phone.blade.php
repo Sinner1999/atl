@@ -3,7 +3,7 @@
         <div class="block-header">
             <div class="row clearfix">
                 <div class="col-md-6 col-sm-12">
-                    <h2>Телефонный справочник</h2>
+                    <h2>--Телефонный справочник--</h2>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td>25150</td>
+                                        <td>{{ $usr->phone->first()->phone }}</td>
                                         <td>{{ $usr->posit->name }}</td>
                                         <td>{{ $usr->posit->dept->name }}</td>
 

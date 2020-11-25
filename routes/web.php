@@ -39,6 +39,11 @@ Route::prefix('ozch', )->group(function(){
 
 });
 
+Route::prefix('doc', )->group(function(){
+
+    Route::get('/', ['uses' => 'HomeController@doc', 'as' => 'docroot']);
+});
+
 // Route::get('/admin', 'HomeController@admin')->name('admin')->middleware('auth');
 
 
