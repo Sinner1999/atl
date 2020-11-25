@@ -81,6 +81,19 @@ class HomeController extends Controller
     }
 
     public function doc(){
+
+    $host = '10.54.1.165';
+
+    $user_name = 'u32108336';
+    $user_pass = '';
+
+    $ftp_id = ftp_connect($host);
+
+    $ftp_in = ftp_login($ftp_id, $user_name, $user_pass);
+
+    $dirs = ftp_mlsd($ftp_id, '.');
+
+    
 	
 	$data = [
 	    'content' => 'atl.doc.root',
