@@ -85,7 +85,8 @@ class HomeController extends Controller
 	$data = [
 	    'content' => 'atl.doc.root',
 	];
-	return view('atl.home', $data);
+    return view('atl.home', $data);
+    
     }
 
 }
