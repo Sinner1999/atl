@@ -26,10 +26,27 @@ Route::prefix('admin', )->middleware('auth')->group(function(){
 
     Route::get('/phone', ['uses' => 'HomeController@adminphone', 'as' => 'adminphone']);
 
-    Route::get('/dept', ['uses' => 'HomeController@admindept', 'as' => 'admindept']);
+    // Route::get('/dept', ['uses' => 'HomeController@admindept', 'as' => 'admindept']);
 
-    Route::get('/posit', ['uses' => 'HomeController@adminposit', 'as' => 'adminposit']);
+    Route::prefix('dept', )->group(function(){
 
+        Route::get('/', ['uses' => 'HomeController@admindept', 'as' => 'adminposit']);
+
+        Route::get('/add', ['uses' => 'HomeController@admindeptadd', 'as' => 'adminpositadd']);
+
+        Route::get('/delete', ['uses' => 'HomeController@admindeptdel', 'as' => 'adminpositdel']);
+
+    });
+
+    Route::prefix('posit', )->group(function(){
+
+        Route::get('/', ['uses' => 'HomeController@adminposit', 'as' => 'adminposit']);
+
+        Route::get('/add', ['uses' => 'HomeController@adminpositadd', 'as' => 'adminpositadd']);
+
+        Route::get('/delete', ['uses' => 'HomeController@adminpositdel', 'as' => 'adminpositdel']);
+
+    });
 
 });
 
