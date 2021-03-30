@@ -91,4 +91,116 @@ class HomeController extends Controller
     
     }
 
+    public function ozch()
+    {
+
+        $ch = curl_init();
+
+        // set url
+        curl_setopt($ch, CURLOPT_URL, "https://parts.toyota-motor.ru/rest/jofl.Helo.aws");
+
+        // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+
+        //return the transfer as a string
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+        //enable headers
+        // curl_setopt($ch, CURLOPT_HEADER, 1);
+
+        curl_setopt($ch, CURLOPT_COOKIESESSION, 1);
+
+        curl_setopt($ch, CURLOPT_POST, 0);
+
+        // curl_setopt($ch, CURLOPT_PROXY, "172.16.15.80:3128");
+
+        curl_setopt($ch, CURLOPT_COOKIEFILE, __DIR__ . 'cookie.txt');
+        curl_setopt($ch, CURLOPT_COOKIEJAR, __DIR__ . 'cookie.txt');
+        // curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        // curl_setopt($ch, CURLOPT_HEADER, false);
+
+        // curl_setopt($ch, CURLOPT_PROXYPORT, 3128);
+
+        
+
+        //get only headers
+        // curl_setopt($ch, CURLOPT_NOBODY, 1);
+
+        // $output contains the output string
+        $output = curl_exec($ch);
+
+        $err = curl_error($ch);
+
+        // close curl resource to free up system resources
+        curl_close($ch);
+
+        // $headers = [];
+        // $dat = explode("\n",$output);
+        // $headers['status'] = $dat[0];
+        // array_shift($dat);
+
+        // foreach($dat as $part){
+            // $middle=explode(":",$part);
+            // $headers[trim($middle[0])] = trim($middle[1]);
+        // }
+
+        // echo "<pre>";
+        // print_r($headers);
+        // echo "</pre>";
+
+        $data = [
+            'content' => 'atl.ozch.home',
+            'au' => $err,
+            'st' => $output,
+            // 'users' => $users
+        ];
+        return view('atl.home', $data);
+    }
+
+    public function ozchauth()
+    {
+
+        $ch = curl_init();
+
+        // set url
+        curl_setopt($ch, CURLOPT_URL, "https://parts.toyota-motor.ru/rest/jofl.Helo.aws");
+
+        //return the transfer as a string
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+        //enable headers
+        curl_setopt($ch, CURLOPT_HEADER, 1);
+
+        //get only headers
+        curl_setopt($ch, CURLOPT_NOBODY, 1);
+
+        // $output contains the output string
+        $output = curl_exec($ch);
+
+        // close curl resource to free up system resources
+        curl_close($ch);
+
+        $headers = [];
+        $dat = explode("\n",$output);
+        $headers['status'] = $dat[0];
+        // array_shift($dat);
+
+        foreach($dat as $part){
+            $middle=explode(":",$part);
+            // $headers[trim($middle[0])] = trim($middle[1]);
+        }
+
+        // echo "<pre>";
+        // print_r($headers);
+        // echo "</pre>";
+
+        $data = [
+            'content' => 'atl.ozch.home',
+            // 'au' => $dt,
+            // 'st' => $dat,
+            // 'users' => $users
+        ];
+        return view('atl.home', $data);
+    }
+
 }

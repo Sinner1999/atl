@@ -18,6 +18,7 @@
                         <div class="table-responsive">
 
                             {{ var_dump($st) }}
+                            {{ var_dump($au) }}
 
                         </div>
 
